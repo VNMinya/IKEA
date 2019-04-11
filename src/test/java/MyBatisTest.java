@@ -5,7 +5,7 @@ import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
-import com.NJXZ_Tourist.po.MyUser;
+import com.njxzc.po.MyUser;
 
 public class MyBatisTest {
 	public static void main(String[] args) {

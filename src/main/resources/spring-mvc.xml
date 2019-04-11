@@ -11,9 +11,9 @@
         http://www.springframework.org/schema/mvc 
         http://www.springframework.org/schema/mvc/spring-mvc.xsd"> 
     <!-- 使用扫描机制，扫描控制器类 -->
-    <context:component-scan base-package="com.NJXZ_Tourist.controller"/>
-    <context:component-scan base-package="com.NJXZ_Tourist.service"/>
-    <context:component-scan base-package="com.NJXZ_Tourist.dao"/>
+    <context:component-scan base-package="com.njxzc.controller"/>
+    <context:component-scan base-package="com.njxzc.service"/>
+    <context:component-scan base-package="com.njxzc.dao"/>
     <mvc:annotation-driven />
     <!-- annotation-driven用于简化开发的配置，
     注解DefaultAnnotationHandlerMapping和AnnotationMethodHandlerAdapter -->
@@ -28,10 +28,10 @@
     <mvc:resources location="/images/" mapping="/images/**"></mvc:resources>    
     	             
   <!--LoginController控制器类，映射到“/login”  -->  
-  <bean name="/login" class="com.NJXZ_Tourist.controller.LoginController"/>
+  <bean name="/login" class="com.njxzc.controller.LoginController"/>
   <!--RegisterController控制器类，映射到“/register”  --> 
-  <bean name="/register" class="com.NJXZ_Tourist.controller.RegisterController"/>
-  <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+  <bean name="/register" class="com.njxzc.controller.RegisterController"/>
+  <bean class="org.springframework.web.njxzc.view.InternalResourceViewResolver"
               id="internalResourceViewResolver">
        <!-- 前缀 -->
        <property name="prefix" value="/WEB-INF/jsp/" />
