@@ -8,6 +8,7 @@
           <file>file://$MODULE_DIR$/src/main/resources/applicationContext.xml</file>
           <file>file://$MODULE_DIR$/web/WEB-INF/springmvc-servlet.xml</file>
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/springmvc-servlet.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/springmvc-servlet.xml</file>
         </fileset>
       </configuration>
     </facet>
