@@ -13,10 +13,10 @@
 	<context:component-scan base-package="com.njxzc.controller" />
 	<mvc:annotation-driven />
 	<!-- 静态资源需要单独处理，不需要dispatcher servlet -->
-	<mvc:resources location="/css/" mapping="/css/**"></mvc:resources>
-	<mvc:resources location="/images/" mapping="/images/**"></mvc:resources>
+	<mvc:resources location="/css/" mapping="/css/**"/>
+	<mvc:resources location="/images/" mapping="/images/**"/>
 	<!-- 查看图片时，logos文件夹不需要dispatcher servlet -->
-	<mvc:resources location="/logos/" mapping="/logos/**"></mvc:resources>
+	<!--<mvc:resources location="/logos/" mapping="/logos/**"></mvc:resources>-->
 	<!-- 配置视图解析器 -->
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver"
@@ -30,9 +30,9 @@
 	<!--<bean id="multipartResolver"-->
 		<!--class="org.springframework.web.multipart.commons.CommonsMultipartResolver"-->
 		<!--p:defaultEncoding="UTF-8" p:maxUploadSize="5400000" p:uploadTempDir="fileUpload/temp">-->
-		<!--&lt;!&ndash;D:\spring mvc workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\fileUpload &ndash;&gt;-->
+		<!--D:\spring mvc workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\fileUpload -->
 	<!--</bean>-->
-	<!-- defaultEncoding="UTF-8" 是请求的编码格式，默认为iso-8859-1 maxUploadSize="5400000" 
+	<!-- defaultEncoding="UTF-8" 是请求的编码格式，默认为iso-8859-1 maxUploadSize="5400000"
 		是允许上传文件的最大值，单位为字节 uploadTempDir="fileUpload/temp" 为上传文件的临时路径 -->
 	<!-- 托管MyExceptionHandler -->
 	<!--<bean class="com.njxzc.exception.MyExceptionHandler" />-->

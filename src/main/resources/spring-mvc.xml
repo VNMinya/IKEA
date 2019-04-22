@@ -21,7 +21,7 @@
     使用resources时，必须使用annotation-driven，不然resources元素会阻止任意控制器被调用。
     如果不使用resources，则annotation-driven可以没有。 -->  
     <!-- 允许css目录下所有文件可见 -->
-    <mvc:resources location="/css/" mapping="/css/**"></mvc:resources> 
+    <mvc:resources location="/css/" mapping="/css/**"/>
     <!-- 允许html目录下所有文件可见 -->
     <mvc:resources location="/html/" mapping="/html/**"></mvc:resources> 
      <!--允许images目录下所有文件可见 -->

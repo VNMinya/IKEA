@@ -61,6 +61,7 @@
         <element id="file-copy" path="$PROJECT_DIR$/target/webdesign/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="IKEA/web/Web" />
+      <element id="artifact" artifact-name="webApplicationExploded" />
     </root>
   </artifact>
 </component>
