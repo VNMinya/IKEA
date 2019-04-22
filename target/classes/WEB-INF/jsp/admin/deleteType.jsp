@@ -25,7 +25,7 @@ table {
 <script type="text/javascript">
   		function checkDel(id){
   			if(window.confirm("是否删除该商品类型？")){
-  				window.location.href = "/ch20/adminType/deleteType?id="+id;
+  				window.location.href = "/ch20/AdminTypeService/deleteType?id="+id;
   			}
   		}
   </script>

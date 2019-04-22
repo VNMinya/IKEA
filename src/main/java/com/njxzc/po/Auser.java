@@ -1,58 +1,22 @@
 package com.njxzc.po;
 
 public class Auser {
-    private Integer uid;//主键
-    private String uname;
-    private String usex;
-    private Integer userage;
-    private String password;
+    private String aname;
+    private String apwd;
 
-    public Integer getUid() {
-        return uid;
+    public String getAname() {
+        return aname;
     }
 
-    public void setUid(Integer uid) {
-        this.uid = uid;
+    public void setAname(String aname) {
+        this.aname = aname;
     }
 
-    public String getUname() {
-        return uname;
+    public String getApwd() {
+        return apwd;
     }
 
-
-    public void setUname(String uname) {
-        this.uname = uname;
-    }
-
-    public String getUsex() {
-        return usex;
-    }
-
-    public void setUsex(String usex) {
-        this.usex = usex;
-    }
-
-    public Integer getUserage() {
-        return userage;
-    }
-
-    public void setUserage(Integer userage) {
-        this.userage = userage;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    @Override
-    public String toString() {
-        return "MyUser [uid=" + uid + ", uname=" + uname + ", usex=" + usex + ", userage=" + userage + ", password="
-                + password + ", getUid()=" + getUid() + ", getUname()=" + getUname() + ", getUsex()=" + getUsex()
-                + ", getUserage()=" + getUserage() + ", getPassword()=" + getPassword() + ", getClass()=" + getClass()
-                + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+    public void setApwd(String apwd) {
+        this.apwd = apwd;
     }
 }

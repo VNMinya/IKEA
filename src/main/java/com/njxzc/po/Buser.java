@@ -1,13 +1,31 @@
 package com.njxzc.po;
 
 public class Buser {
-    private Integer uid;//主键
-    private String uname;
+    private Integer id;//主键
+    private String bemail;
+    private String bpwd;
 
-    public Integer getUid() {
-        return uid;
+    public Integer getId() {
+        return id;
     }
-    public void setUname(String uname) {
-        this.uname = uname;
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getBemail() {
+        return bemail;
+    }
+
+    public void setBemail(String bemail) {
+        this.bemail = bemail;
+    }
+
+    public String getBpwd() {
+        return bpwd;
+    }
+
+    public void setBpwd(String bpwd) {
+        this.bpwd = bpwd;
     }
 }

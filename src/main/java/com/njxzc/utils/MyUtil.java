@@ -19,6 +19,6 @@ public class MyUtil {
 	 */
 	public static Integer getUserId(HttpSession session) {
 		Buser ruser = (Buser)session.getAttribute("bruser");
-		return ruser.getUid();
+		return ruser.getId();
 	}
 }
