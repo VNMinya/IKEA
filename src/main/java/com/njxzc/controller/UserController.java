@@ -1,8 +1,7 @@
-package com.njxzc.controller;
+﻿package com.njxzc.controller;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
-
 import com.njxzc.dao.UserDao;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
