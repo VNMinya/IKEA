@@ -1,0 +1,1571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="webApplicationArchive" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7377611f-bc1c-4bc0-9ff8-4008bdebea54" name="Default" comment="底层">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/index/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/controller/AdminTypeController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/dao/AdminTypeDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/AdminTypeMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/po/Goodstype.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/service/AdminTypeService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/layui.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/admin/addGoods.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/admin/addNotice.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/admin/addType.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/admin/deleteNoticeSelect.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/admin/deleteSelectGoods.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/admin/deleteType.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/admin/goodsDetail.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/admin/login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/admin/main.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/admin/noticeDetail.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/admin/orderManager.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/admin/selectGoods.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/admin/updateAgoods.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/admin/updateSelectGoods.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/admin/userManager.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/before/cart.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/before/goodsdetail.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/before/head.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/before/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/before/login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/before/orderconfirm.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/before/orderdone.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/before/paydone.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/before/register.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/before/searchResult.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/before/userCenter.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/before/userOrderDetail.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/jsp/error/error.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/ch7.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/com/njxzc/mapper/UserMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/css/admin/common.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/css/before/common.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/css/before/daohang.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/css/before/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/html/my.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/admin/bb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/admin/cancel.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/admin/login.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/admin/ok.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/admin/submit.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/101.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/102.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/103.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/104.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/105.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/106.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/107.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/108.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/3_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/540.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/790.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/99.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/Chinapay_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/ListBg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/NavBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/alone.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/anniu1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/anniu10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/anniu11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/anniu12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/anniu13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/anniu14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/anniu2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/anniu3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/around_bggif.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/bg_new.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/bj1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/bj9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/bj9_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/bnt_buy.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/bnt_buy_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/bnt_cat.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/bnt_coll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/bnt_colles.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/bnt_go.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/bnt_home.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/bnt_log.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/bnt_recommend.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/bnt_reg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/bnt_search.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/bnt_sign.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/bnt_subOrder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/bnt_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/bnt_ur_log.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/bnt_ur_reg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/box_2Bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/brandBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/card.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/card2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/catBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/category_tree_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/checkout.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/city1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/city11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/city2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/city22.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/commentsBnt.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/compareBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/compareSub.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/continue.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/dian.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/dian4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/display_mode_grid.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/display_mode_grid_act.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/display_mode_list.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/display_mode_list_act.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/display_mode_text.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/display_mode_text_act.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/down.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/drop.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/floattag.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/food1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/food2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/food3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/food4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/food5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/food6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/food7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/foot_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/foot_2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/foot_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/footerLine.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/foucsBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/gakko_search_ann.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/goods_ann1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/goods_ann2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/goods_id_ASC.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/goods_id_DESC.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/goods_id_default.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/gotop.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/h3title.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/hdjs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/hdjs2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/helpTitBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/helpTitbg1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/hpoto1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/input.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/inputbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/itemH2Bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/jiang.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/jxgw.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/kk4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/last_update_ASC.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/last_update_DESC.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/last_update_default.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/lineBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/linklogo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/login_ann.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/login_arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/logo_vip.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/map.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/mark1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/menuBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/more.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/moreBrands.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/msn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/my_bj5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/mylogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/note.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/one.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/other1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/page01.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/page02.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/page03.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/page04.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/pick_btn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/pick_btn2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/qjs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/salesBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/salesGoodBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/salesTitBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/sc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/search1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/search2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/search3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/search4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/search5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/search6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/searchBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/sh_icon1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/sh_icon2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/sh_icon3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/shop1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/shop_price_ASC.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/shop_price_DESC.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/shop_price_default.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/side_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/skina_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/skina_4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/skina_5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/skina_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/skina_6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/skina_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/skina_7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/skina_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/skinb_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/skinb_2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/skinb_4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/skinb_5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/skinb_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/skinb_6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/skinb_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/skinb_7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/skinb_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/star_level.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stars0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stars1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stars2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stars3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stars4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stars5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stud_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stud_10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stud_11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stud_12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stud_13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stud_14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stud_15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stud_16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stud_2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stud_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stud_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stud_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stud_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stud_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stud_8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/stud_9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/tagleft.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/tagright.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/topNavBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/topNavR.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/top_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/top_10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/top_2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/top_3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/top_4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/top_5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/top_6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/top_7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/top_8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/top_9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/type_0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/type_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/typecoffee_0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/typecoffee_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/typegreen_0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/typegreen_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/typepink_0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/typepink_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/u1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/u10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/u11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/u12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/u13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/u14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/u2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/u3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/u4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/u5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/u6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/u7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/u8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/u9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/uh_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/ur_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/ur_bg1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/wb_pic2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/xian.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/xml_rss2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/yahoo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/images/before/zhuce_anniu.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/mybatis-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/shop.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IKEA/spring-mvc.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njxzc/po/Auser.class" afterPath="$PROJECT_DIR$/target/classes/com/njxzc/po/Auser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njxzc/po/Buser.class" afterPath="$PROJECT_DIR$/target/classes/com/njxzc/po/Buser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njxzc/utils/MyUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/njxzc/utils/MyUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/18c50d3a-bc13-4fdb-b55a-8cb330c1e58e.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/18c50d3a-bc13-4fdb-b55a-8cb330c1e58e.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IKEA.iml" afterPath="$PROJECT_DIR$/IKEA.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/po/Auser.java" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/po/Auser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/po/Buser.java" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/po/Buser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/utils/MyUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/utils/MyUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/deleteType.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/deleteType.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/jsp/admin/deleteType.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/jsp/admin/deleteType.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/index.jsp" afterPath="$PROJECT_DIR$/target/classes/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="shop@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AdminTypeService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/service/AdminTypeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="45" column="42" lean-forward="false" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="42" column="49" lean-forward="true" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminTypeController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/AdminTypeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#861#862#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+                <element signature="e#1039#1040#0" expanded="true" />
+                <element signature="e#1100#1101#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminTypeMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/mapper/AdminTypeMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+              <folding>
+                <marker date="1555938311914" expanded="true" signature="272:295" ph="select * FRO... goodstype" />
+                <marker date="1555938311914" expanded="true" signature="373:436" ph="insert into goodstype... " />
+                <marker date="1555938311914" expanded="true" signature="521:557" ph="delete FROM " />
+                <marker date="1555938311914" expanded="true" signature="647:696" ph="select * FRO... goodstable" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Goodstype.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/po/Goodstype.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding>
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminTypeDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/dao/AdminTypeDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="VN_Minya &lt;734475596@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/NJXZ_Tourist/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/NJXZ_Tourist/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/NJXZ_Tourist/controller/RegisterController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/NJXZ_Tourist/po/MyUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/NJXZ_Tourist/po/UserForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/NJXZ_Tourist/utils/RandomValidateCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/NJXZ_Tourist/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/NJXZ_Tourist/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/NJXZ_Tourist/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/NJXZ_Tourist/controller/UserControllerMybatis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/NJXZ_Tourist/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/springmvc-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/controller/RegisterController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/controller/UserControllerMybatis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/po/MyUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/po/UserForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/utils/RandomValidateCode.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/springmvc-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestSpringMybatis.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MyBatisTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/service/adminType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/po/Buser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/po/Auser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/utils/MyUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/AdminTypeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/po/Goodstype.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/dao/AdminTypeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/service/AdminTypeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/controller/AdminTypeController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../maven/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Gradle</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Probable bugsGradle</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringModelInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="njxzc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="njxzc" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="njxzc" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="njxzc" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="njxzc" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="njxzc" type="462c0819:PsiDirectoryNode" />
+              <item name="po" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="njxzc" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="njxzc" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+  </component>
+  <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/VNMinya/IKEA.git" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/njxzc/mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.njxzc.dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/images/index" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/css" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/njxzc/utils" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/njxzc/exception" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.131" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="webApplicationArchive">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_IKEA" />
+        <option name="HTTP_PORT" value="8090" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64233" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="webApplicationArchive" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7377611f-bc1c-4bc0-9ff8-4008bdebea54" name="Default" comment="" />
+      <created>1554778811134</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554778811134</updated>
+      <workItem from="1554778812699" duration="3601000" />
+      <workItem from="1554960602480" duration="2120000" />
+      <workItem from="1554964821394" duration="3352000" />
+      <workItem from="1554968830244" duration="6300000" />
+      <workItem from="1555379647390" duration="600000" />
+      <workItem from="1555380253731" duration="24000" />
+      <workItem from="1555380281059" duration="1562000" />
+      <workItem from="1555382442092" duration="3177000" />
+      <workItem from="1555920918070" duration="56000" />
+      <workItem from="1555929560955" duration="4767000" />
+    </task>
+    <task id="LOCAL-00001" summary="测试文件！">
+      <created>1554799994476</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554799994476</updated>
+    </task>
+    <task id="LOCAL-00002" summary="测试文件！">
+      <created>1554800223099</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554800223099</updated>
+    </task>
+    <task id="LOCAL-00003" summary="底层">
+      <created>1554973254127</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554973254127</updated>
+    </task>
+    <task id="LOCAL-00004" summary="底层">
+      <created>1554974435621</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554974435621</updated>
+    </task>
+    <task id="LOCAL-00005" summary="底层">
+      <created>1554974542240</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554974542240</updated>
+    </task>
+    <task id="LOCAL-00006" summary="底层">
+      <created>1554974571820</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554974571820</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="25559000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="728" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32786885" sideWeight="0.5129241" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1098546" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49030694" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32786885" sideWeight="0.48707592" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.4806139" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2714055" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22131148" sideWeight="0.49030694" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.49676898" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="测试文件！" />
+    <MESSAGE value="底层" />
+    <option name="LAST_COMMIT_MESSAGE" value="底层" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springtest.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/18c50d3a-bc13-4fdb-b55a-8cb330c1e58e/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/NJXZ_Tourist/mapper/UserMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/NJXZ_Tourist/controller/IndexController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/NJXZ_Tourist/controller/LoginController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/utils/RandomValidateCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="51" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/addGoods.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/springmvc-servlet.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestSpringMybatis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyBatisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/exception/MyExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" column="52" lean-forward="false" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/po/UserForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/my.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/index/2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/admin/cancel.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/index/1.jpg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/index/4.jpg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/admin/bb.jpg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/addGoods.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/admin/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/addNotice.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="36" column="7" lean-forward="false" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/addType.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <marker date="1554364597716" expanded="true" signature="304:370" ph="insert into myuser... " />
+            <marker date="1554364597716" expanded="true" signature="463:533" ph="update myuse... " />
+            <marker date="1554364597716" expanded="true" signature="614:651" ph="delete from " />
+            <marker date="1554364597716" expanded="true" signature="776:815" ph="select * fro... myuser" />
+            <marker date="1554364597716" expanded="true" signature="917:960" ph="select * fro... myuser" />
+            <marker date="1554364597716" expanded="true" signature="1055:1075" ph="select * fro... myuser" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ch7.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="112" column="31" lean-forward="true" selection-start-line="112" selection-start-column="31" selection-end-line="112" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/shop.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/admin/submit.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/before/102.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/exception/AdminLoginNoException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/utils/MyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/po/Buser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/po/Auser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/po/MyUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="24" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/po/Goodstype.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/mapper/AdminTypeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <marker date="1555938311914" expanded="true" signature="272:295" ph="select * FRO... goodstype" />
+            <marker date="1555938311914" expanded="true" signature="373:436" ph="insert into goodstype... " />
+            <marker date="1555938311914" expanded="true" signature="521:557" ph="delete FROM " />
+            <marker date="1555938311914" expanded="true" signature="647:696" ph="select * FRO... goodstable" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/dao/AdminTypeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/service/AdminTypeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="45" column="42" lean-forward="false" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/UserControllerMybatis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="42" column="49" lean-forward="true" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/AdminTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>webApplicationArchive</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Detection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>IKEA</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Spring-4.3.18.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
