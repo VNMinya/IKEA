@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.njxzc.dao.UserDao">
+
+    <!-- toselectAllAUser-->
+    <select id="selectAllAUser" resultType="com.njxzc.po.AUser">
+		select * FROM ausertable;
+	</select>
+
+    <!-- toselectAllBUser-->
+    <select id="selectAllBUser" resultType="com.njxzc.po.BUser">
+		select * FROM busertable;
+	</select>
+
+    <!--addAUser-->
+    <insert id="addUser" parameterType="com.njxzc.po.AUser">
+		insert into ausertable (aname, apwd) values(#{aname},#{apwd})
+	</insert>
+
+    <!--addBUser-->
+    <insert id="addUser" parameterType="com.njxzc.po.BUser">
+		insert into busertable (id,bemail,bpwd) values(#{id},#{bemail},#{bpwd})
+	</insert>
+
+    <!--deleteAUser-->
+    <delete id="deleteAUser" parameterType="Integer">
+		delete FROM ausertable where name=#{aname}
+	</delete>
+
+    <!--deleteBUser-->
+    <delete id="deleteBUser" parameterType="Integer">
+		delete FROM busertable where id=#{id}
+	</delete>
+
+    <!-- 修改一个用户Auser -->
+    <update id="updateUser" parameterType="com.njxzc.po.Auser">
+		update ausertable set aname =#{aname},apwd = #{apwd} where aname = #{aname}
+	</update>
+
+    <!-- 修改一个用户Buser -->
+    <update id="updateUser" parameterType="com.njxzc.po.Buser">
+		update busertable set bemail =#{bemail},bpwd = #{bpwd} where id = #{id}
+	</update>
+
+</mapper>
