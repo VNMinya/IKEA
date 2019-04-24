@@ -1,8 +1,6 @@
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-
-import com.njxzc.controller.UserControllerMybatis;
 public class TestSpringMybatis {
   /*
    * 此类完成项目的各模块的测试功能；

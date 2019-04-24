@@ -13,7 +13,7 @@ import java.util.List;
 （Spring将指定包中所有被@Mapper注解标注的接口自动装配为MyBatis的映射接口*/
 public interface AdminTypeDao {
 	/**
-	 * 接口方法对应SQL映射文件UserMapper.xml中的id
+	 * 接口方法对应SQL映射文件ATD.xml中的id
 	 */
 	public Goodstype selectGoodsType();
 	public Goodstype addType(String type);

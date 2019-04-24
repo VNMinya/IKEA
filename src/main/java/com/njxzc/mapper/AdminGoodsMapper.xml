@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.njxzc.dao.AdminGoodsDao">
+
+	<!-- AddGoods -->
+	<insert id="addGoods" parameterType="Goods">
+		INSERT INTO goodstable(id, gname, goprice, grprice, gstore, gpicture, goodstype_id)
+		VALUES (NULL , #{gname}, #{goprice}, #{grprice}, #{gstore}, #{gpicture}, #{goodstype_id})
+	</insert>
+
+	<!-- UpdateGoodsByID -->
+	<update id="updateGoodsById" parameterType="Goods">
+		UPDATE goodstable SET gname=#{gname}, goprice=#{goprice}, grprice=#{grprice}, gstore=#{gstore}, gpicture=#{gpicture}, goodstype_id=#{goodstype_id} WHERE id=#{id}
+	</update>
+</mapper>
