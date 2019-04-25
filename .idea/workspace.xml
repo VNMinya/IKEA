@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7377611f-bc1c-4bc0-9ff8-4008bdebea54" name="Default" comment="notice-v1" />
+    <list default="true" id="7377611f-bc1c-4bc0-9ff8-4008bdebea54" name="Default" comment="notice-v1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/AdminTypeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="209">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#481#482#0" expanded="true" />
@@ -76,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -207,7 +209,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="251" />
     <option name="y" value="6" />
     <option name="width" value="1280" />
@@ -262,7 +264,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -391,6 +392,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -566,6 +568,7 @@
       <workItem from="1555920918070" duration="56000" />
       <workItem from="1555929560955" duration="4767000" />
       <workItem from="1555990500755" duration="990000" />
+      <workItem from="1556170476186" duration="389000" />
     </task>
     <task id="LOCAL-00001" summary="测试文件！">
       <created>1554799994476</created>
@@ -623,17 +626,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555990834897</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="notice-v1">
+      <created>1556170681275</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1556170681275</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26549000" />
+    <option name="totallyTimeSpent" value="26938000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="202" y="6" width="1024" height="583" extended-state="1" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2774327" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18364611" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -641,11 +651,9 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49030694" weight="0.22131148" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48707592" visible="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48707592" weight="0.32786885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -653,22 +661,24 @@
       <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49676898" weight="0.32894737" />
       <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49676898" weight="0.32894737" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49676898" weight="0.32894737" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5207039" side_tool="true" visible="true" weight="0.32815966" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5214477" side_tool="true" visible="true" weight="0.32719547" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49030694" weight="0.32894737" />
       <window_info anchor="bottom" id="Problems" order="12" sideWeight="0.49676898" weight="0.32894737" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49676898" weight="0.32894737" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.47929606" visible="true" weight="0.32815966" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.47855228" weight="0.20963173" />
       <window_info anchor="bottom" id="Inspection Results" order="15" sideWeight="0.49676898" visible="true" weight="0.3289689" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="17" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.10973085" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.07104558" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -790,7 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -896,22 +905,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <marker date="1554364597716" expanded="true" signature="304:370" ph="insert into myuser... " />
-            <marker date="1554364597716" expanded="true" signature="463:533" ph="update myuse... " />
-            <marker date="1554364597716" expanded="true" signature="614:651" ph="delete from " />
-            <marker date="1554364597716" expanded="true" signature="776:815" ph="select * fro... myuser" />
-            <marker date="1554364597716" expanded="true" signature="917:960" ph="select * fro... myuser" />
-            <marker date="1554364597716" expanded="true" signature="1055:1075" ph="select * fro... myuser" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <folding />
-        </state>
+        <state relative-caret-position="-111" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ch7.sql">
@@ -1029,6 +1028,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/AdminTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/mapper/AdminTypeMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1062,26 +1077,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/AdminTypeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -1138,7 +1137,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8 (1)</last-edited>
+          <last-edited>1.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
