@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 @Controller
 public class AdminGoodsController {
     @Autowired
-    private AdminGoodsService adminGoodsService;
+    AdminGoodsService adminGoodsService;
 
     /**
      * add页面初始化

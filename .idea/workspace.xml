@@ -2,46 +2,536 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="webApplicationArchive" />
+      <artifact name="IKEA:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7377611f-bc1c-4bc0-9ff8-4008bdebea54" name="Default" comment="底层">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/controller/AdminGoodsController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/AdminGoodsMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/po/Goods.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/service/AdminGoodsService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/service/AdminGoodsServiceImp.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/controller/IndexController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/controller/LoginController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/controller/RegisterController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/controller/UserController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/controller/UserControllerMybatis.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/UserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/po/MyUser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/po/UserForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/service/UserService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/service/UserServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/njxzc/controller/IndexController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/njxzc/controller/LoginController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/njxzc/controller/RegisterController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/njxzc/controller/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/njxzc/controller/UserControllerMybatis.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/njxzc/dao/UserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/njxzc/mapper/UserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/njxzc/po/MyUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/njxzc/po/UserForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/njxzc/service/UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/njxzc/service/UserServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/MyBatisTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/TestSpringMybatis.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/dao/AdminGoodsDao.java" />
+    <list default="true" id="7377611f-bc1c-4bc0-9ff8-4008bdebea54" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/controller/HelloController.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/css/admin/common.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/css/before/common.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/css/before/daohang.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/css/before/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/css/layui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/html/my.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/admin/bb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/admin/cancel.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/admin/login.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/admin/ok.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/admin/submit.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/101.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/102.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/103.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/104.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/105.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/106.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/107.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/108.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/3_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/540.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/790.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/99.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/Chinapay_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/ListBg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/NavBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/alone.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/anniu1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/anniu10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/anniu11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/anniu12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/anniu13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/anniu14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/anniu2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/anniu3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/around_bggif.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/bg_new.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/bj1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/bj9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/bj9_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/bnt_buy.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/bnt_buy_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/bnt_cat.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/bnt_coll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/bnt_colles.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/bnt_go.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/bnt_home.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/bnt_log.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/bnt_recommend.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/bnt_reg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/bnt_search.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/bnt_sign.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/bnt_subOrder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/bnt_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/bnt_ur_log.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/bnt_ur_reg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/box_2Bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/brandBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/card.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/card2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/catBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/category_tree_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/checkout.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/city1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/city11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/city2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/city22.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/commentsBnt.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/compareBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/compareSub.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/continue.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/dian.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/dian4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/display_mode_grid.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/display_mode_grid_act.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/display_mode_list.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/display_mode_list_act.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/display_mode_text.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/display_mode_text_act.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/down.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/drop.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/floattag.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/food1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/food2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/food3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/food4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/food5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/food6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/food7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/foot_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/foot_2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/foot_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/footerLine.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/foucsBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/gakko_search_ann.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/goods_ann1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/goods_ann2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/goods_id_ASC.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/goods_id_DESC.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/goods_id_default.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/gotop.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/h3title.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/hdjs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/hdjs2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/helpTitBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/helpTitbg1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/hpoto1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/input.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/inputbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/itemH2Bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/jiang.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/jxgw.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/kk4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/last_update_ASC.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/last_update_DESC.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/last_update_default.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/lineBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/linklogo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/login_ann.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/login_arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/logo_vip.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/map.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/mark1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/menuBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/more.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/moreBrands.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/msn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/my_bj5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/mylogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/note.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/one.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/other1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/page01.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/page02.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/page03.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/page04.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/pick_btn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/pick_btn2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/qjs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/salesBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/salesGoodBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/salesTitBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/sc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/search1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/search2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/search3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/search4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/search5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/search6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/searchBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/sh_icon1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/sh_icon2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/sh_icon3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/shop1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/shop_price_ASC.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/shop_price_DESC.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/shop_price_default.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/side_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/skina_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/skina_4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/skina_5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/skina_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/skina_6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/skina_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/skina_7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/skina_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/skinb_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/skinb_2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/skinb_4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/skinb_5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/skinb_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/skinb_6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/skinb_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/skinb_7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/skinb_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/star_level.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stars0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stars1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stars2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stars3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stars4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stars5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stud_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stud_10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stud_11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stud_12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stud_13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stud_14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stud_15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stud_16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stud_2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stud_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stud_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stud_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stud_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stud_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stud_8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/stud_9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/tagleft.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/tagright.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/topNavBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/topNavR.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/top_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/top_10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/top_2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/top_3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/top_4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/top_5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/top_6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/top_7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/top_8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/top_9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/type_0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/type_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/typecoffee_0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/typecoffee_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/typegreen_0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/typegreen_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/typepink_0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/typepink_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/u1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/u10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/u11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/u12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/u13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/u14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/u2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/u3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/u4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/u5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/u6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/u7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/u8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/u9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/uh_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/ur_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/ur_bg1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/wb_pic2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/xian.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/xml_rss2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/yahoo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/before/zhuce_anniu.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/index/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/index/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/index/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/index/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/css/admin/common.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/css/before/common.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/css/before/daohang.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/css/before/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/css/layui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/html/my.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/admin/bb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/admin/cancel.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/admin/login.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/admin/ok.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/admin/submit.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/101.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/102.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/103.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/104.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/105.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/106.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/107.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/108.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/3_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/540.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/790.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/99.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/Chinapay_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/ListBg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/NavBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/alone.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/anniu1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/anniu10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/anniu11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/anniu12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/anniu13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/anniu14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/anniu2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/anniu3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/around_bggif.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/bg_new.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/bj1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/bj9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/bj9_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/bnt_buy.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/bnt_buy_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/bnt_cat.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/bnt_coll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/bnt_colles.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/bnt_go.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/bnt_home.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/bnt_log.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/bnt_recommend.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/bnt_reg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/bnt_search.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/bnt_sign.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/bnt_subOrder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/bnt_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/bnt_ur_log.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/bnt_ur_reg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/box_2Bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/brandBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/card.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/card2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/catBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/category_tree_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/checkout.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/city1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/city11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/city2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/city22.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/commentsBnt.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/compareBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/compareSub.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/continue.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/dian.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/dian4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/display_mode_grid.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/display_mode_grid_act.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/display_mode_list.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/display_mode_list_act.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/display_mode_text.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/display_mode_text_act.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/down.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/drop.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/floattag.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/food1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/food2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/food3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/food4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/food5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/food6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/food7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/foot_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/foot_2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/foot_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/footerLine.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/foucsBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/gakko_search_ann.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/goods_ann1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/goods_ann2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/goods_id_ASC.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/goods_id_DESC.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/goods_id_default.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/gotop.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/h3title.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/hdjs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/hdjs2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/helpTitBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/helpTitbg1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/hpoto1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/input.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/inputbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/itemH2Bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/jiang.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/jxgw.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/kk4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/last_update_ASC.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/last_update_DESC.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/last_update_default.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/lineBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/linklogo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/login_ann.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/login_arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/logo_vip.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/map.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/mark1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/menuBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/more.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/moreBrands.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/msn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/my_bj5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/mylogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/note.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/one.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/other1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/page01.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/page02.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/page03.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/page04.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/pick_btn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/pick_btn2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/qjs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/salesBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/salesGoodBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/salesTitBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/sc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/search1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/search2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/search3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/search4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/search5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/search6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/searchBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/sh_icon1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/sh_icon2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/sh_icon3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/shop1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/shop_price_ASC.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/shop_price_DESC.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/shop_price_default.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/side_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/skina_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/skina_4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/skina_5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/skina_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/skina_6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/skina_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/skina_7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/skina_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/skinb_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/skinb_2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/skinb_4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/skinb_5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/skinb_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/skinb_6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/skinb_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/skinb_7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/skinb_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/star_level.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stars0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stars1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stars2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stars3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stars4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stars5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stud_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stud_10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stud_11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stud_12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stud_13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stud_14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stud_15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stud_16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stud_2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stud_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stud_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stud_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stud_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stud_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stud_8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/stud_9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/tagleft.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/tagright.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/topNavBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/topNavR.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/top_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/top_10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/top_2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/top_3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/top_4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/top_5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/top_6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/top_7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/top_8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/top_9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/type_0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/type_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/typecoffee_0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/typecoffee_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/typegreen_0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/typegreen_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/typepink_0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/typepink_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/u1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/u10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/u11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/u12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/u13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/u14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/u2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/u3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/u4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/u5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/u6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/u7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/u8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/u9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/uh_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/ur_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/ur_bg1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/wb_pic2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/xian.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/xml_rss2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/yahoo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/before/zhuce_anniu.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/index/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/index/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/index/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/images/index/4.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/po/Goodstype.java" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/po/GoodsType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njxzc/controller/AdminTypeController.class" afterPath="$PROJECT_DIR$/target/classes/com/njxzc/controller/AdminTypeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njxzc/dao/AdminTypeDao.class" afterPath="$PROJECT_DIR$/target/classes/com/njxzc/dao/AdminTypeDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njxzc/po/Goodstype.class" afterPath="$PROJECT_DIR$/target/classes/com/njxzc/po/Goodstype.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njxzc/service/AdminTypeService.class" afterPath="$PROJECT_DIR$/target/classes/com/njxzc/service/AdminTypeService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IKEA.iml" afterPath="$PROJECT_DIR$/IKEA.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/controller/AdminGoodsController.java" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/controller/AdminGoodsController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/controller/AdminTypeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/controller/AdminTypeController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/dao/AdminTypeDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/dao/AdminTypeDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/AdminGoodsMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/AdminGoodsMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/AdminTypeMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/AdminTypeMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/service/AdminTypeService.java" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/service/AdminTypeService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MyBatisTest.java" afterPath="$PROJECT_DIR$/src/test/java/MyBatisTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestSpringMybatis.java" afterPath="$PROJECT_DIR$/src/test/java/TestSpringMybatis.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/njxzc/mapper/AdminTypeMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/njxzc/mapper/AdminTypeMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/index.jsp" afterPath="$PROJECT_DIR$/target/classes/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,88 +563,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AdminTypeService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/service/AdminTypeService.java">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="179">
+              <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminGoodsController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/AdminGoodsController.java">
+      <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-110">
+              <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="55" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminGoodsService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/service/AdminGoodsService.java">
+      <file leaf-file-name="springmvc-servlet.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminGoodsServiceImp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/service/AdminGoodsServiceImp.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="226">
+              <caret line="122" column="9" lean-forward="true" selection-start-line="122" selection-start-column="9" selection-end-line="123" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminGoodsDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/dao/AdminGoodsDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Goods.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/po/Goods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="65" column="24" lean-forward="false" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1280#1281#0" expanded="true" />
-                <element signature="e#1312#1313#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminGoodsMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/mapper/AdminGoodsMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="54" lean-forward="false" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-              <folding>
-                <marker date="1556110564249" expanded="true" signature="265:440" ph="INSERT INTO goodstable... " />
-                <marker date="1556110564249" expanded="true" signature="534:695" ph="UPDATE goods... " />
+                <element signature="n#style#0;n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,10 +611,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>title</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -209,31 +659,35 @@
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/utils/RandomValidateCode.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/springmvc-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestSpringMybatis.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MyBatisTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/service/adminType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/po/Buser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/po/Auser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/utils/MyUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/AdminTypeMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/po/Goodstype.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/service/AdminTypeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/dao/AdminTypeDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/service/AdminGoodsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/po/Goods.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/18c50d3a-bc13-4fdb-b55a-8cb330c1e58e/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/AdminGoodsMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/dao/AdminGoodsDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/service/AdminGoodsServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestSpringMybatis.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MyBatisTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/controller/AdminTypeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/controller/AdminGoodsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/service/AdminTypeService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/AdminGoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/AdminTypeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/po/Goodstype.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/dao/AdminTypeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/layui.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
       </list>
     </option>
   </component>
@@ -246,8 +700,8 @@
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
@@ -267,7 +721,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="726" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -387,34 +841,7 @@
               <item name="IKEA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="njxzc" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="njxzc" type="462c0819:PsiDirectoryNode" />
-              <item name="po" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="njxzc" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
@@ -422,6 +849,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
@@ -444,8 +872,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="settings.editor.selected.configurable" value="spring" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -456,18 +884,18 @@
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/VNMinya/IKEA.git" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/images/index" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/css" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/njxzc/utils" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/njxzc/exception" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/njxzc/mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.njxzc.dao" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/njxzc/mapper" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/css" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/images/index" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/css" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/njxzc/utils" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/njxzc/exception" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -484,18 +912,16 @@
   </component>
   <component name="RunManager" selected="Tomcat Server.Unnamed">
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.131" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="webApplicationArchive">
+        <artifact name="IKEA:war">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_IKEA" />
-        <option name="HTTP_PORT" value="8090" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_IKEA_2" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -504,7 +930,7 @@
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="64233" />
+        <option name="DEBUG_PORT" value="62507" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -553,7 +979,7 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="webApplicationArchive" />
+          <artifact name="IKEA:war" />
         </option>
       </method>
     </configuration>
@@ -662,7 +1088,7 @@
       <workItem from="1555382442092" duration="3177000" />
       <workItem from="1555920918070" duration="56000" />
       <workItem from="1555929560955" duration="11677000" />
-      <workItem from="1556109895891" duration="1293000" />
+      <workItem from="1556109895891" duration="12409000" />
     </task>
     <task id="LOCAL-00001" summary="测试文件！">
       <created>1554799994476</created>
@@ -706,18 +1132,25 @@
       <option name="project" value="LOCAL" />
       <updated>1554974571820</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="AdminGoods写完">
+      <created>1556111244741</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1556111244741</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33762000" />
+    <option name="totallyTimeSpent" value="44878000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="726" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22203948" sideWeight="0.51615506" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262295" sideWeight="0.51615506" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -728,11 +1161,12 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.4838449" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.48707592" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3262295" sideWeight="0.4838449" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.4806139" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
@@ -747,7 +1181,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.49676898" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49030694" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -789,7 +1222,8 @@
     </ignored-roots>
     <MESSAGE value="测试文件！" />
     <MESSAGE value="底层" />
-    <option name="LAST_COMMIT_MESSAGE" value="底层" />
+    <MESSAGE value="AdminGoods写完" />
+    <option name="LAST_COMMIT_MESSAGE" value="AdminGoods写完" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -802,136 +1236,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/utils/RandomValidateCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="51" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/addGoods.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/springmvc-servlet.xml" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestSpringMybatis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MyBatisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/exception/MyExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="24" column="52" lean-forward="false" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/po/UserForm.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/my.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/index/2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/admin/cancel.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/index/1.jpg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/index/4.jpg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/admin/bb.jpg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/addGoods.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/admin/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/addNotice.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="36" column="7" lean-forward="false" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/service/UserService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/addType.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -942,18 +1246,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/mapper/UserMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ch7.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="112" column="31" lean-forward="true" selection-start-line="112" selection-start-column="31" selection-end-line="112" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1032,30 +1329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/po/Goodstype.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding>
-            <element signature="e#113#114#0" expanded="false" />
-            <element signature="e#138#139#0" expanded="false" />
-            <element signature="e#175#176#0" expanded="false" />
-            <element signature="e#203#204#0" expanded="false" />
-            <element signature="e#238#239#0" expanded="false" />
-            <element signature="e#269#270#0" expanded="false" />
-            <element signature="e#317#318#0" expanded="false" />
-            <element signature="e#357#358#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="42" column="49" lean-forward="true" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -1065,40 +1338,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/mapper/AdminTypeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding>
-            <marker date="1555938311914" expanded="true" signature="272:295" ph="select * FRO... goodstype" />
-            <marker date="1555938311914" expanded="true" signature="373:436" ph="insert into goodstype... " />
-            <marker date="1555938311914" expanded="true" signature="521:557" ph="delete FROM " />
-            <marker date="1555938311914" expanded="true" signature="647:696" ph="select * FRO... goodstable" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/dao/AdminTypeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/mapper/AdminGoodsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="54" lean-forward="false" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-          <folding>
-            <marker date="1556110564249" expanded="true" signature="265:440" ph="INSERT INTO goodstable... " />
-            <marker date="1556110564249" expanded="true" signature="534:695" ph="UPDATE goods... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1124,10 +1363,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/service/AdminGoodsServiceImp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="148">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestSpringMybatis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyBatisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/AdminTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1137,17 +1400,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/service/AdminGoodsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/AdminTypeController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/service/AdminGoodsServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="46" />
+        <state relative-caret-position="194">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1156,28 +1419,215 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/service/AdminTypeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="126">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/AdminGoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="210">
+          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-758">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/AdminGoodsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        <state relative-caret-position="214">
+          <caret line="44" column="29" lean-forward="true" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/mapper/AdminTypeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <marker date="1556115778466" expanded="true" signature="285:308" ph="select * FRO... goodstype" />
+            <marker date="1556115778466" expanded="true" signature="386:449" ph="insert into goodstype... " />
+            <marker date="1556115778466" expanded="true" signature="534:570" ph="delete FROM " />
+            <marker date="1556115778466" expanded="true" signature="673:722" ph="select * FRO... goodstable" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/po/GoodsType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/dao/AdminTypeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/mapper/AdminGoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <folding>
+            <marker date="1556115672942" expanded="true" signature="278:453" ph="INSERT INTO goodstable... " />
+            <marker date="1556115672942" expanded="true" signature="560:721" ph="UPDATE goods... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/images/index/4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/images/index/3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/my.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/layui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error/error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/layui-v2.4.5/layui/images/face/29.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/layui-v2.4.5/layui/images/face/33.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/layui-v2.4.5/layui/images/face/39.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/layui-v2.4.5/layui/images/face/71.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/images/index/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/images/index/2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/layui-v2.4.5/layui/css/layui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/layui-v2.4.5/layui/layui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="122" column="9" lean-forward="true" selection-start-line="122" selection-start-column="9" selection-end-line="123" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1212,7 +1662,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Detection</last-edited>
+          <last-edited>Web (IKEA)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

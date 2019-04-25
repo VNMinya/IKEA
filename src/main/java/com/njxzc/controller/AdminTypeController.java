@@ -11,7 +11,7 @@ import javax.servlet.http.HttpSession;
 @Controller
 public class AdminTypeController {
     @Autowired
-    private AdminTypeService adminTypeService;
+    AdminTypeService adminTypeService;
 
     /**
      * 添加类型页面

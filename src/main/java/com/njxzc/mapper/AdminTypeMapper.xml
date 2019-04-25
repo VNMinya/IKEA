@@ -5,7 +5,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 <mapper namespace="com.njxzc.dao.AdminTypeDao">
 
 	<!-- toAddType-->
-	<select id="selectGoodsType" resultType="GoodsType">
+	<select id="selectGoodsType" resultType="com.njxzc.po.Goodstype">
 		select * FROM goodstype;
 	</select>
 
@@ -18,7 +18,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<delete id="deleteType" parameterType="Integer">
 		delete FROM goodstype where id=#{id}
 	</delete>
-	<select id="selectGoodsByType" resultType="Goods" parameterType="Integer">
+	<select id="selectGoodsByType" resultType="com.njxzc.po.Goods" parameterType="Integer">
 		select * FROM goodstable where goodstype_id=#{id}
 	</select>
 </mapper>

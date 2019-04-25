@@ -7,8 +7,8 @@ public class TestSpringMybatis {
   **/
 	public static void main(String[] args) {
 
-		ApplicationContext appCon = new ClassPathXmlApplicationContext("applicationContext.xml");
-		UserControllerMybatis uc = (UserControllerMybatis)appCon.getBean("UserControllerMybatis");
-		uc.test();
+//		ApplicationContext appCon = new ClassPathXmlApplicationContext("applicationContext.xml");
+//		UserControllerMybatis uc = (UserControllerMybatis)appCon.getBean("UserControllerMybatis");
+//		uc.test();
 	}
 }

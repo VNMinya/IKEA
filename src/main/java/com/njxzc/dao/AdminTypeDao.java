@@ -1,7 +1,7 @@
 package com.njxzc.dao;
 
 import com.njxzc.po.Auser;
-import com.njxzc.po.Goodstype;
+import com.njxzc.po.GoodsType;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
@@ -15,8 +15,8 @@ public interface AdminTypeDao {
 	/**
 	 * 接口方法对应SQL映射文件ATD.xml中的id
 	 */
-	public Goodstype selectGoodsType();
-	public Goodstype addType(String type);
+	public GoodsType selectGoodsType();
+	public GoodsType addType(String type);
 	public int deleteType(Integer id);
-	public List<Goodstype> selectGoodsByType(Integer id);
+	public List<GoodsType> selectGoodsByType(Integer id);
 }

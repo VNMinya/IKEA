@@ -1,55 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
-	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
-	id="WebApp_ID" version="3.1">	
-	<!-- 实例化ApplicationContext容器 -->
-	<display-name>ECP Web Application</display-name>
-	<!-- 起始欢迎界面 -->
-	<welcome-file-list>
-		<welcome-file>index.jsp</welcome-file>
-		<welcome-file>login.jsp</welcome-file>
-		<welcome-file>index.html</welcome-file>
-		<welcome-file>index.htm</welcome-file>
-	</welcome-file-list>
+		 xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+		 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+		 id="WebApp_ID" version="3.1">
+
+	<!-- 读取spring配置文件 -->
 	<context-param>
-  		<!-- 加载src目录下的applicationContext.xml文件 -->
-  		<param-name>contextConfigLocation</param-name>
-  		<param-value>
-  			classpath:applicationContext.xml
-  		</param-value>
-  	</context-param>
-  	<!-- 指定以ContextLoaderListener方式启动Spring容器 -->
-  	<listener>
-  		<listener-class>
-  			org.springframework.web.context.ContextLoaderListener
-  		</listener-class>
-  	</listener>
-	<!--配置DispatcherServlet -->
+		<param-name>contextConfigLocation</param-name>
+		<param-value>
+			classpath:applicationContext.xml;
+		</param-value>
+	</context-param>
+	<!-- 配置ContextLoaderListener用来初始化Spring IoC容器 -->
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+
+
+	<!-- 配置DispathcerServlet -->
 	<servlet>
 		<servlet-name>springmvc</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>classpath:spring-mvc.xml</param-value>
+		</init-param>
+
+		<!-- 服务器启动时就初始化 -->
 		<load-on-startup>1</load-on-startup>
 	</servlet>
+
+	<!-- 拦截器配置-->
 	<servlet-mapping>
 		<servlet-name>springmvc</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
-	<!-- 避免中文乱码 -->
+
+
+
+
+	<!-- Spring字符集过滤器 -->
 	<filter>
-    	<filter-name>characterEncodingFilter</filter-name>
-    	<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
-    	<init-param>
-      		<param-name>encoding</param-name>
-      		<param-value>UTF-8</param-value>
-    	</init-param>
-    	<init-param>
-     		<param-name>forceEncoding</param-name>
-      		<param-value>true</param-value>
-    	</init-param>
-  </filter>
-  <filter-mapping>
-    <filter-name>characterEncodingFilter</filter-name>
-    <url-pattern>/*</url-pattern>
-  </filter-mapping>
+		<filter-name>SpringEncodingFilter</filter-name>
+		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+		<init-param>
+			<param-name>forceEncoding</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>SpringEncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+
 </web-app>
