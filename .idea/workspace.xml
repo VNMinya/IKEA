@@ -55,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/AdminTypeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+            <state relative-caret-position="76">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#481#482#0" expanded="true" />
@@ -69,6 +69,15 @@
                 <element signature="e#1039#1040#0" expanded="true" />
                 <element signature="e#1100#1101#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -125,6 +134,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="struggly &lt;1453378499@qq.com&gt;" />
         <option value="VN_Minya &lt;734475596@qq.com&gt;" />
       </list>
     </option>
@@ -197,11 +207,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="252" />
-    <option name="y" value="7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="251" />
+    <option name="y" value="6" />
     <option name="width" value="1280" />
-    <option name="height" value="729" />
+    <option name="height" value="730" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -386,6 +396,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555990812368" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -554,7 +565,7 @@
       <workItem from="1555382442092" duration="3177000" />
       <workItem from="1555920918070" duration="56000" />
       <workItem from="1555929560955" duration="4767000" />
-      <workItem from="1555990500755" duration="283000" />
+      <workItem from="1555990500755" duration="990000" />
     </task>
     <task id="LOCAL-00001" summary="测试文件！">
       <created>1554799994476</created>
@@ -605,17 +616,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555990546102</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="notice-v1">
+      <created>1555990834897</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1555990834897</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25842000" />
+    <option name="totallyTimeSpent" value="26549000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="202" y="6" width="1024" height="583" extended-state="0" />
+    <frame x="202" y="6" width="1024" height="583" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2774327" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2774327" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -639,7 +657,7 @@
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49030694" weight="0.32894737" />
       <window_info anchor="bottom" id="Problems" order="12" sideWeight="0.49676898" weight="0.32894737" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49676898" weight="0.32894737" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="14" sideWeight="0.47929606" visible="true" weight="0.32815966" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.47929606" visible="true" weight="0.32815966" />
       <window_info anchor="bottom" id="Inspection Results" order="15" sideWeight="0.49676898" visible="true" weight="0.3289689" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -710,7 +728,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springtest.sql" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/18c50d3a-bc13-4fdb-b55a-8cb330c1e58e/console.sql" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/NJXZ_Tourist/mapper/UserMapper.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/NJXZ_Tourist/controller/IndexController.java" />
@@ -1047,8 +1064,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/AdminTypeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        <state relative-caret-position="76">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#481#482#0" expanded="true" />
@@ -1058,6 +1075,13 @@
             <element signature="e#1039#1040#0" expanded="true" />
             <element signature="e#1100#1101#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
