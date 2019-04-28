@@ -35,14 +35,14 @@ body {
 	text-align: center;
 	font-family: 华文彩云;
 	color: #000000;
-	font-size: 30px；
+	font-size: 30px;
 }
 
 #navigator {
 	height: 25px;
 	width: 800px;
 	font-size: 14px;
-	background-image: url(images/admin/bb.jpg);
+	background-image: url(../../images/admin/bb.jpg);
 }
 
 #navigator ul {

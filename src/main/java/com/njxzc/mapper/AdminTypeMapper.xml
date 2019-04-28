@@ -5,13 +5,13 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 <mapper namespace="com.njxzc.dao.AdminTypeDao">
 
 	<!-- toAddType-->
-	<select id="selectGoodsType" resultType="com.njxzc.po.Goodstype">
+	<select id="selectGoodsType" resultMap="com.njxzc.po.Goodstype">
 		select * FROM goodstype;
 	</select>
 
 	<!--addType-->
 	<insert id="addType" parameterType="String">
-		insert into goodstype (id, typename) values (NULL, #{typename})
+		insert into goodstype (id, typename) values (NULL, #{type})
 	</insert>
 	
 	<!--deleteType-->

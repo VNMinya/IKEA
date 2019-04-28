@@ -11,6 +11,7 @@ public class Goods {
     String gname;
     double goprice;
     double gstore;
+    double grprice;
     String gpicture;
     Integer goodstype_id;
     MultipartFile logoImage;
@@ -69,5 +70,13 @@ public class Goods {
 
     public void setLogoImage(MultipartFile logoImage) {
         this.logoImage = logoImage;
+    }
+
+    public double getGrprice() {
+        return grprice;
+    }
+
+    public void setGrprice(double grprice) {
+        this.grprice = grprice;
     }
 }

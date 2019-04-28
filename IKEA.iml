@@ -21,15 +21,15 @@
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
         <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/webapp" />
           <root url="file://$MODULE_DIR$/out/production/IKEA/images" />
           <root url="file://$MODULE_DIR$/out/production/IKEA/images/admin" />
           <root url="file://$MODULE_DIR$/out/production/IKEA/images/before" />
-          <root url="file://$MODULE_DIR$/src/main/java" />
-          <root url="file://$MODULE_DIR$/src/main/resources" />
-          <root url="file://$MODULE_DIR$/src/main/webapp" />
           <root url="file://$MODULE_DIR$/src/main/webapp/images/admin" />
           <root url="file://$MODULE_DIR$/src/main/webapp/images/before" />
           <root url="file://$MODULE_DIR$/src/main/webapp/images/index" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
         </sourceRoots>
       </configuration>
     </facet>
@@ -44,13 +44,7 @@
       <sourceFolder url="file://$MODULE_DIR$/out/production/IKEA/images" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/out/production/IKEA/images/admin" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/out/production/IKEA/images/before" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/webapp/images/admin" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/webapp/images/before" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/webapp/images/index" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
-      <excludeFolder url="file://$MODULE_DIR$/src/main/webapp/images/admin" />
-      <excludeFolder url="file://$MODULE_DIR$/src/main/webapp/images/before" />
-      <excludeFolder url="file://$MODULE_DIR$/src/main/webapp/images/index" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

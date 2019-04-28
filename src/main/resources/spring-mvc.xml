@@ -22,11 +22,11 @@
     如果不使用resources，则annotation-driven可以没有。 -->
 
     <!-- 允许css目录下所有文件可见 -->
-    <mvc:resources location="/WEB-INF/css/" mapping="/css/**"></mvc:resources>
+    <mvc:resources location="/css/" mapping="/css/**"></mvc:resources>
     <!-- 允许html目录下所有文件可见 -->
-    <mvc:resources location="/WEB-INF/html/" mapping="/html/**"></mvc:resources>
+    <mvc:resources location="/html/" mapping="/html/**"></mvc:resources>
      <!--允许images目录下所有文件可见 -->
-    <mvc:resources location="/WEB-INF/images/" mapping="/images/**"></mvc:resources>
+    <mvc:resources location="/images/" mapping="/images/**"></mvc:resources>
 
   <!--LoginController控制器类，映射到“/login”  -->
   <!--<bean name="/login" class="com.njxzc.controller.LoginController"/>-->
@@ -35,7 +35,7 @@
   <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"
               id="internalResourceViewResolver">
        <!-- 前缀 -->
-       <property name="prefix" value="/WEB-INF/jsp/" />
+       <property name="prefix" value="/jsp/" />
        <!-- 后缀 -->
        <property name="suffix" value=".jsp" />
   </bean>

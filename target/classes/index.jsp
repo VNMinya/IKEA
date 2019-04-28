@@ -29,14 +29,47 @@
 	<meta name="renderer" content="webkit">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="stylesheet" href="/css/layui/css/layui.css"  media="all">
+	<link rel="stylesheet" href="/layui/css/layui.css"  media="all">
 	<!-- 注意：如果你直接复制所有代码到本地，上述css路径需要改成你本地的 -->
 </head>
 <body>
 
-<fieldset class="layui-elem-field layui-field-title" style="margin-top: 50px;">
-	<legend>填充轮播元素 - 以图片为例</legend>
-</fieldset>
+
+<ul class="layui-nav">
+	<li class="layui-nav-item layui-this"><a href="">最新活动</a></li>
+	<li class="layui-nav-item">
+		<a href="javascript:;">商品</a>
+		<dl class="layui-nav-child">
+			<dd><a href="">选项1</a></dd>
+			<dd><a href="">选项2</a></dd>
+			<dd><a href="">选项3</a></dd>
+		</dl>
+	</li>
+	<li class="layui-nav-item"><a href="/jsp/before/login.jsp">登陆</a></li>
+	<li class="layui-nav-item"><a href="/jsp/before/register.jsp">注册</a></li>
+	<li class="layui-nav-item">
+		<a href="javascript:;">解决方案</a>
+		<dl class="layui-nav-child">
+			<dd><a href="">移动模块</a></dd>
+			<dd><a href="">后台模版</a></dd>
+			<dd class="layui-this"><a href="">选中项</a></dd>
+			<dd><a href="">电商平台</a></dd>
+		</dl>
+	</li>
+	<li class="layui-nav-item">
+		<a href="">个人中心<span class="layui-badge-dot"></span></a>
+	</li>
+	<li class="layui-nav-item" lay-unselect="">
+		<a href="javascript:;"><img src="//t.cn/RCzsdCq" class="layui-nav-img">我</a>
+		<dl class="layui-nav-child">
+			<dd><a href="javascript:;">修改信息</a></dd>
+			<dd><a href="javascript:;">安全管理</a></dd>
+			<dd><a href="javascript:;">退了</a></dd>
+		</dl>
+	</li>
+	<li class="layui-nav-item"><a href="">社区</a></li>
+</ul>
+
 
 <div class="layui-carousel" id="test10">
 	<div carousel-item="">
@@ -48,12 +81,13 @@
 </div>
 
 
-<script src="/css/layui/layui.js" charset="utf-8"></script>
+<script src="/layui/layui.js" charset="utf-8"></script>
 <!-- 注意：如果你直接复制所有代码到本地，上述js路径需要改成你本地的 -->
 <script>
-    layui.use(['carousel', 'form'], function(){
+    layui.use(['carousel', 'form','element'], function(){
         var carousel = layui.carousel
-            ,form = layui.form;
+            ,form = layui.form
+			,element = layui.element;
 
         //常规轮播
         carousel.render({

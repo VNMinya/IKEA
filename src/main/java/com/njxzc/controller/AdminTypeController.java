@@ -1,6 +1,6 @@
 package com.njxzc.controller;
 
-import com.njxzc.service.AdminTypeService;
+import com.njxzc.service.AdminTypeServiceImp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -9,9 +9,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.servlet.http.HttpSession;
 
 @Controller
+@RequestMapping("/adminType")
 public class AdminTypeController {
     @Autowired
-    AdminTypeService adminTypeService;
+    AdminTypeServiceImp adminTypeService;
 
     /**
      * 添加类型页面
@@ -19,7 +20,7 @@ public class AdminTypeController {
 
     @RequestMapping("/toAddType")
     public String toAddType(Model model){
-        return adminTypeService.toAddType(model);
+        return "admin/addType";
     }
 
     /**

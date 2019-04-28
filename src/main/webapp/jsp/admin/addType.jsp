@@ -11,7 +11,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <base href="<%=basePath%>">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link href="css/admin/common.css" type="text/css" rel="stylesheet">
+<link href="/css/admin/common.css" type="text/css" rel="stylesheet">
 <style type="text/css">
 table {
 	text-align: center;
@@ -22,13 +22,6 @@ table {
 	background-color: #F08080;
 }
 </style>
-<script type="text/javascript">
-  		function checkDel(id){
-  			if(window.confirm("是否删除该商品类型？")){
-  				window.location.href = "/ch20/AdminTypeService/deleteType?id="+id;
-  			}
-  		}
-  </script>
 </head>
 <body>
 	<c:if test="${allTypes.size() == 0 }">
@@ -38,20 +31,19 @@ table {
 		<table border="1" bordercolor="PaleGreen">
 			<tr>
 				<th width="200px">类型ID</th>
-				<th width="300px">类型名称</th>
-				<th width="300px">删除操作</th>
+				<th width="600px">类型名称</th>
 			</tr>
 			<c:forEach items="${allTypes }" var="goodsType">
 				<tr>
 					<td>${goodsType.id }</td>
 					<td>${goodsType.typename }</td>
-					<td><a href="javascript:checkDel('${goodsType.id }')">删除</a></td>
 				</tr>
 			</c:forEach>
-			<tr>
-				<td colspan="3">${msg }</td>
-			</tr>
 		</table>
 	</c:if>
+	<form action="/adminType/addType" method="post">
+		类型名称： <input type="text" name="typename" /> <input type="submit"
+			value="添加" />
+	</form>
 </body>
 </html>

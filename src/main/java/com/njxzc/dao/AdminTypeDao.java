@@ -15,8 +15,8 @@ public interface AdminTypeDao {
 	/**
 	 * 接口方法对应SQL映射文件ATD.xml中的id
 	 */
-	public GoodsType selectGoodsType();
-	public GoodsType addType(String type);
+	public List<GoodsType> selectGoodsType();
+	public void addType(String type);
 	public int deleteType(Integer id);
 	public List<GoodsType> selectGoodsByType(Integer id);
 }
