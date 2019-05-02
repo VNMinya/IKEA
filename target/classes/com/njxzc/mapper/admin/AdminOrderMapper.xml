@@ -2,18 +2,18 @@
 <!DOCTYPE mapper
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.njxzc.dao.AdminOrderDao">
+<mapper namespace="com.njxzc.dao.admin.AdminOrderDao">
 
-	<select id="orderInfo" parameterType="Order" resultType="java.util.Map">
-		select * from orderbasetable
+	<select id="orderInfo" resultType="map">
+		select od.id,od.busertable_id,od.amount,od.orderdate,bd.bemail
+		from orderbasetable od, busertable bd where bd=od
 	</select>
-	<delete id="deleteOrderDetail" parameterType="Order">
-		delete from orderdetail where id=#{id}
+	<delete id="deleteOrderDetail" parameterType="Integer">
+		delete from orderdetail where orderbasetable_id=#{id}
 	</delete>
-	<delete id="deleteOrderBase" parameterType="Order">
+	<delete id="deleteOrderBase" parameterType="Integer">
 		delete from orderbasetable where id=#{id}
 	</delete>
-
 	<!--<select id="selectOrderBase" resultType="com.njxzc.po.Order"-->
 	<!--parameterType="com.njxzc.po.Order">-->
 	<!--SELECT * FROM orderbasetable where 1=1-->

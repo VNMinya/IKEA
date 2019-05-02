@@ -1,6 +1,6 @@
-package com.njxzc.service;
+package com.njxzc.service.admin;
 
-import com.njxzc.dao.AdminOrderDao;
+import com.njxzc.dao.admin.AdminOrderDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
 

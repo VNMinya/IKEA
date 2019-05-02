@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.njxzc.dao.before.BeforeOrderDao">
+
+    <insert id="addOrderBase" parameterType="Order">
+
+    </insert>
+    <insert id="addOrderDetail" parameterType="map">
+
+    </insert>
+
+    <select id="selectGoodsShop" resultType="map"
+    parameterType="com.njxzc.po.Order">
+          SELECT * FROM orderbasetable where 1=1
+            <if test="uname!=null and uname!=''">
+               AND uname like concat('%', #{uname}, '%')
+            </if>
+    </select>
+
+    <update id="updateStore">
+
+    </update>
+
+    <delete id="clear" parameterType="Integer">
+        delete from carttable where busertable_id=#{uid}
+    </delete>
+
+    <update id="pay" parameterType="Integer">
+        update orderbasetable set status=1 where id=#{odsn}
+    </update>
+    <!--&lt;!&ndash; 删除一个用户 &ndash;&gt;-->
+    <!--<delete id="deleteUser" parameterType="Integer">-->
+    <!--delete from myuser where uid = #{uid}-->
+    <!--</delete>-->
+    <!--&lt;!&ndash; 根据uid查询一个用户信息 &ndash;&gt;-->
+    <!--<select id="selectUserById" parameterType="Integer" resultType="com.njxzc.po.MyUser">-->
+    <!--select * from myuser where uid = #{uid}-->
+    <!--</select>-->
+    <!--<select id="selectUserByName" parameterType="String" resultType="com.njxzc.po.MyUser">-->
+    <!--select * from myuser where uname = #{uname}-->
+    <!--</select>-->
+    <!--&lt;!&ndash; 查询所有用户信息 &ndash;&gt;-->
+    <!--<select id="selectAllUser" resultType="com.njxzc.po.MyUser">-->
+    <!--select * from myuser-->
+    <!--</select>-->
+    <!--<select id="selectUserByUname" resultType="com.njxzc.po.MyUser"-->
+    <!--parameterType="com.njxzc.po.MyUser">-->
+    <!--SELECT * FROM myuser where 1=1-->
+    <!--<if test="uname!=null and uname!=''">-->
+    <!--AND uname like concat('%', #{uname}, '%')-->
+    <!--</if>-->
+    <!--</select>-->
+</mapper>

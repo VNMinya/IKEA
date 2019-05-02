@@ -1,4 +1,4 @@
-package com.njxzc.service;
+package com.njxzc.service.admin;
 
 import org.springframework.ui.Model;
 
