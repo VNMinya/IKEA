@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.njxzc.dao.AdminGoodsDao">
+
+	<!-- AddGoods -->
+	<insert id="addGoods" parameterType="com.njxzc.po.Goods">
+		INSERT INTO goodstable(id, gname, goprice, grprice, gstore, gpicture, goodstype_id)
+		VALUES (NULL , #{gname}, #{goprice}, #{grprice}, #{gstore}, #{gpicture}, #{goodstype_id})
+	</insert>
+
+	<!-- SelectGoods -->
+	<select id="selectGoods" resultMap="Goods">
+		SELECT * FROM goodstable
+	</select>
+
+	<!-- 分页查询 -->
+	<select id="selectAllGoodsByPage" resultMap="Goods" parameterType="map">
+		SELECT * FROM goodstable ORDER BY id LIMIT #{startIndex}, #{perPageSize}
+	</select>
+
+	<!-- 根据id查询 -->
+	<select id="selectGoodsById" resultMap="Goods" parameterType="Integer">
+		SELECT gt.*, gy.typename FROM goodstable gt, goodstype gy WHERE gt.id = #{id} AND gt.goodstype_id = gy.id
+	</select>
+
+	<!--删除多个商品-->
+	<delete id="deleteGoods" parameterType="List">
+		DELETE FROM goodstable WHERE id IN 
+		<foreach item="item" index="index" collection="list" open="(" separator="," close=")">
+			#{item}
+		</foreach>
+	</delete>
+
+	<!--删除单个商品-->
+	<delete id="deleteAGoods" parameterType="Integer">
+		DELETE FROM goodstable WHERE id=#{id}
+	</delete>
+
+	<!--查询关联商品-->
+	<select id="selectCartGoods" parameterType="Integer" resultType="map">
+		SELECT * FROM carttable WHERE goodstable_id=#{id}
+	</select>
+	<select id="selectFocusGoods" parameterType="Integer" resultType="map">
+		SELECT * FROM focustable WHERE goodstable_id=#{id}
+	</select>
+	<select id="selectOrderdetailGoods" parameterType="Integer" resultType="map">
+		SELECT * FROM orderdetail WHERE goodstable_id=#{id}
+	</select>
+
+	<!--修改一个商品-->
+	<update id="updateGoodsById" parameterType="Goods">
+		UPDATE goodstable
+		<set>
+			<if test="gname != null">
+				gname = #{gname},
+			</if>
+			<if test="goprice != null">
+				goprice = #{goprice},
+			</if>
+			<if test="grprice != null">
+				grprice = #{grprice},
+			</if>
+			<if test="gstore != null">
+				gstore = #{gstore},
+			</if>
+			<if test="gpicture != null">
+				gpicture = #{gpicture},
+			</if>
+			<if test="goodstype_id != null">
+				goodstype_id = #{goodstype_id},
+			</if>
+		</set>
+		WHERE id = #{id}
+	</update>
+
+</mapper>

@@ -18,7 +18,12 @@ public interface AdminGoodsDao {
 	public int addGoods(Goods goods);
 	public int updateGoodsById(Goods goods);
 	public List<Goods> selectGoods();
-	public List<Goods> selectAllGoodsByPage(Map map);
+	public List<Goods> selectAllGoodsByPage(Map<String, Object> map);
 	public Goods selectGoodsById(Integer integer);
+	public int deleteGoods(List<Integer> id);
+	public int deleteAGoods(Integer id);
+	public List<Map<String, Object>> selectCartGoods(Integer id);
+	public List<Map<String, Object>> selectFocusGoods(Integer id);
+	public List<Map<String, Object>> selectOrderdetailGoods(Integer id);
 
 }

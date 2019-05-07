@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.njxzc.dao.CartDao">
+
+	<!-- 关注商品 -->
+	<insert id="focus" parameterType="map">
+		INSERT INTO focustable(id, goodstable_id, busertable_id,focustime) VALUES (null, #{gid}, #{uid},now())
+	</insert>
+
+	<!-- 是否已关注 -->
+	<select id="isFocus" parameterType="map" resultType="map">
+		SELECT * FROM focustable WHERE goodstable_id=#{gid}  and busertable_id=#{uid}
+	</select>
+
+	<!-- 是否已添加购物车 -->
+	<select id="isPutCart" parameterType="map" resultType="map">
+		SELECT * from carttable WHERE goodstable_id=#{gid}  AND busertable_id=#{uid}
+	</select>
+
+	<!-- 添加购物车 -->
+	<insert id="putCart" parameterType="map">
+		INSERT INTO carttable(id, busertable_id,goodstable_id,shoppingnum) VALUES (null, #{uid}, #{gid}, #{shoppingnum})
+	</insert>
+
+	<!-- 更新购物车 -->
+	<update id="updateCart" parameterType="map">
+		UPDATE carttable SET shoppingnum=shoppingnum+#{shoppingnum} WHERE busertable_id=#{uid} AND goodstable_id=#{gid}
+	</update>
+
+	<!-- 查询购物车 -->
+	<select id="selectCart" parameterType="Integer" resultType="map">
+		SELECT gt.id, gt.gname, gt.gpicture, gt.grprice, ct.shoppingnum, ct.shoppingnum*gt.grprice smallsum FROM GOODSTABLE gt, CARTTABLE ct WHERE gt.id=ct.goodstable_id AND ct.busertable_id=#{id}
+	</select>
+
+	<!-- 删除购物车 -->
+	<delete id="deleteAgoods" parameterType="map">
+		DELETE FROM carttable WHERE busertable_id=#{uid} AND goodstable_id=#{gid}
+	</delete>
+
+	<!-- 清空购物车 -->
+	<delete id="clear" parameterType="Integer">
+		DELETE FROM carttable WHERE busertable_id=#{uid}
+	</delete>
+
+</mapper>

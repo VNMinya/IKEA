@@ -8,14 +8,14 @@
 <%--</head>--%>
 <%--<body>--%>
 <%--<div  align="center">--%>
-	<%--<a>基于Bean方式的控制:</a>--%>
-	<%--<br>没注册的用户，请<a  href="${pageContext.request.contextPath }/register">注册</a>！--%>
-	<%--<br>已注册的用户，去<a href="${pageContext.request.contextPath }/login">登录</a>！--%>
+	<%--<admin>基于Bean方式的控制:</admin>--%>
+	<%--<br>没注册的用户，请<admin  href="${pageContext.request.contextPath }/register">注册</admin>！--%>
+	<%--<br>已注册的用户，去<admin href="${pageContext.request.contextPath }/login">登录</admin>！--%>
 	<%--<br>--%>
-	<%--<a>------------------</a>--%>
-	<%--<br><a>基于注解方式的控制:</a>--%>
-	<%--<br>没注册的用户，请<a href="${pageContext.request.contextPath }/index/register">注册</a>！--%>
-	<%--<br>已注册的用户，去<a href="${pageContext.request.contextPath }/index/login">登录</a>！--%>
+	<%--<admin>------------------</admin>--%>
+	<%--<br><admin>基于注解方式的控制:</admin>--%>
+	<%--<br>没注册的用户，请<admin href="${pageContext.request.contextPath }/index/register">注册</admin>！--%>
+	<%--<br>已注册的用户，去<admin href="${pageContext.request.contextPath }/index/login">登录</admin>！--%>
 
 <%--</div>--%>
 <%--</body>--%>
@@ -45,7 +45,7 @@
 			<dd><a href="">选项3</a></dd>
 		</dl>
 	</li>
-	<li class="layui-nav-item"><a href="/jsp/before/login.jsp">登陆</a></li>
+	<li class="layui-nav-item"><a href="/jsp/admin/login.jsp">登陆</a></li>
 	<li class="layui-nav-item"><a href="/jsp/before/register.jsp">注册</a></li>
 	<li class="layui-nav-item">
 		<a href="javascript:;">解决方案</a>
