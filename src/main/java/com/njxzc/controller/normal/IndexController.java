@@ -14,7 +14,7 @@ import javax.servlet.http.HttpSession;
 
 @Controller
 @RequestMapping("/index")
-public class IndexController {
+public class IndexController extends BaseNormalController {
     @Autowired
     private IndexService indexService;
     @Autowired

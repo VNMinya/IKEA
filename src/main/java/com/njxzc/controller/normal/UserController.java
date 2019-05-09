@@ -11,7 +11,7 @@ import com.njxzc.service.normal.UserService;
 
 @Controller
 @RequestMapping("/user")
-public class UserController {
+public class UserController extends BaseNormalController {
     @Autowired
     private UserService userService;
     @RequestMapping("/register")

@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
  */
 @Controller
 @RequestMapping("/adminGoods")
-public class AdminGoodsController{
+public class AdminGoodsController extends BaseController {
     @Autowired
     AdminGoodsService adminGoodsService;
 
