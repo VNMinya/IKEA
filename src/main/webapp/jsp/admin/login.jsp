@@ -46,6 +46,7 @@ body {
 </head>
 <body>
   <div align="center">
+	<%--@elvariable id="auser" type="com.njxzc.po.Auser"--%>
 	<form:form action="admin/login" modelAttribute="auser" method="post">
 		<table>
 			<tr>

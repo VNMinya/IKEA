@@ -13,7 +13,7 @@ import java.util.Map;
 （Spring将指定包中所有被@Mapper注解标注的接口自动装配为MyBatis的映射接口*/
 public interface IndexDao {
 	/**
-	 * 接口方法对应SQL映射文件AGM.xml中的id
+	 * 接口方法对应SQL映射文件IM.xml中的id
 	 */
 	public List<Map<String, Object>> getSaleOrder();
 	public List<Map<String, Object>> getFocusOrder();

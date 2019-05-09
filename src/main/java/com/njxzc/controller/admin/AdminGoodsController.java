@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
 
+/**
+ * 商品管理
+ */
 @Controller
 @RequestMapping("/adminGoods")
 public class AdminGoodsController{

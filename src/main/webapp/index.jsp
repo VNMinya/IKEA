@@ -45,7 +45,7 @@
 			<dd><a href="">选项3</a></dd>
 		</dl>
 	</li>
-	<li class="layui-nav-item"><a href="/jsp/before/login.jsp">登陆</a></li>
+	<li class="layui-nav-item"><a href="/jsp/admin/login.jsp">登陆</a></li>
 	<li class="layui-nav-item"><a href="/jsp/before/register.jsp">注册</a></li>
 	<li class="layui-nav-item">
 		<a href="javascript:;">解决方案</a>

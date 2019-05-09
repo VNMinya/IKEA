@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpSession;
 
+/**
+ * 商品类型管理
+ */
 @Controller
 @RequestMapping("/adminType")
 public class AdminTypeController {

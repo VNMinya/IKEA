@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+		PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.UserDao">
+	<select id="login"  resultType="Buser" parameterType="Buser">
+		SELECT * FROM busertable WHERE bemail =  #{bemail} AND bpwd = #{bpwd}
+	</select>
+
+	<insert id="register" parameterType="Buser">
+		INSERT INTO busertable (id, bemail, bpwd) VALUES (null, #{bemail}, #{bpwd})
+	</insert>
+</mapper>

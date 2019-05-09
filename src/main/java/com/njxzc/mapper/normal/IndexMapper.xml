@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+		PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.IndexDao">
+	<!-- 查询销售排行 -->
+	<select id="getSaleOrder"  resultType="map">
+		SELECT sum(od.SHOPPINGNUM) shopnumber,
+		gd.id id,
+		gd.GNAME gname,
+		gd.GOPRICE goprice,
+		gd.GRPRICE grprice,
+		gd.GPICTURE  gpicture
+		FROM GOODSTABLE gd   LEFT JOIN ORDERDETAIL  od  ON od.goodstable_id=gd.id
+		GROUP BY
+		gd.id,
+		gd.GNAME,
+		gd.GOPRICE,
+		gd.GRPRICE,
+		gd.GPICTURE
+		ORDER BY shopnumber DESC LIMIT 10
+	</select>
+
+	<!-- 人气排行 -->
+	<select id="getFocusOrder" resultType="map">
+		SELECT COUNT(ft.goodstable_id) fn, gt.id id, gt.gname gname,
+		gt.grprice grprice, gt.gpicture gpicture
+		FROM GOODSTABLE gt
+		LEFT JOIN FOCUSTABLE ft  ON ft.goodstable_id=gt.id
+		GROUP BY gt.id, gt.gname, gt.grprice, gt.gpicture
+		ORDER BY fn DESC LIMIT 10
+	</select>
+
+	<!-- 公告 -->
+	<select id="selectNotice" resultType="Notice">
+		SELECT * FROM noticetable ORDER BY ntime DESC
+	</select>
+
+	<!-- 最新商品 -->
+	<select id="getLastedGoods" resultType="Goods" parameterType="Goods">
+		SELECT gt.*, gy.typename FROM GOODSTABLE gt,GOODSTYPE gy WHERE gt.goodstype_id = gy.id
+		<if test="id != 0">
+			AND gy.id = #{id}
+		</if>
+		ORDER BY gt.id DESC LIMIT 15
+	</select>
+
+	<!-- 根据id查询一个商品 -->
+	<select id="selectGoodsById"  resultType="Goods" parameterType="Integer">
+		SELECT gt.*,gy.typename FROM goodstable gt,goodstype gy WHERE gt.id=#{id} AND gt.goodstype_id = gy.id
+	</select>
+
+	<!-- 首页搜索 -->
+	<select id="search" resultType="Goods" parameterType="String">
+		SELECT gt.*, gy.typename FROM GOODSTABLE gt,GOODSTYPE gy WHERE gt.goodstype_id = gy.id
+		AND gt.gname LIKE concat('%',#{mykey},'%')
+	</select>
+
+</mapper>
