@@ -44,10 +44,6 @@ public class IndexController {
     public String toRegister(Model model){
         return indexService.toRegister(model);
     }
-    @RequestMapping("/register")
-    public String register(@ModelAttribute Buser buser, Model model, HttpSession httpSession, String code){
-        return userService.register(buser, model, httpSession, code);
-    }
 
     /**
      * 转到商品详情页

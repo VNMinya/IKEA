@@ -7,29 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7377611f-bc1c-4bc0-9ff8-4008bdebea54" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/controller/admin/AdminController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/dao/AdminDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/dao/AdminUserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/dao/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/normal/IndexMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/normal/UserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/service/admin/AdminService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/service/admin/AdminServiceImp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/service/normal/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/service/normal/UserServiceImp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webdesign.war" afterPath="$PROJECT_DIR$/target/webdesign.war" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/controller/normal/UserCenterController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/controller/normal/UserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/dao/UserCenterDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/service/normal/UserCenterService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/service/normal/UserCenterServiceImp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/controller/admin/AdminGoodsController.java" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/controller/admin/AdminGoodsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/controller/admin/AdminTypeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/controller/admin/AdminTypeController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/controller/normal/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/controller/normal/IndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/njxzc/dao/IndexDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/njxzc/dao/IndexDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/admin/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/admin/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/index.jsp" afterPath="$PROJECT_DIR$/target/classes/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jsp/admin/login.jsp" afterPath="$PROJECT_DIR$/target/classes/jsp/admin/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webdesign/WEB-INF/classes/jsp/admin/login.jsp" afterPath="$PROJECT_DIR$/target/webdesign/WEB-INF/classes/jsp/admin/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webdesign/WEB-INF/classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/target/webdesign/WEB-INF/classes/mybatis-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/webdesign/jsp/admin/login.jsp" afterPath="$PROJECT_DIR$/target/webdesign/jsp/admin/login.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,21 +45,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/normal/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" column="40" lean-forward="false" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+            <state relative-caret-position="360">
+              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserCenterController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/normal/UserCenterController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserCenterMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/mapper/normal/UserCenterMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <marker date="1557380916280" expanded="true" signature="262:363" ph="SELECT id, a... ORDERBASETABLE" />
+                <marker date="1557380916280" expanded="true" signature="443:597" ph="SELECT gt.id... FOCUSTABLE" />
+                <marker date="1557380916280" expanded="true" signature="681:862" ph="SELECT gt.id... GOODSTABLE" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/dao/IndexDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/admin/login.jsp">
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,12 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/dao/AdminSelectGoodsDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/service/AdminSelectGoodsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/AdminSelectGoodsMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/service/AdminSelectGoodsServiceImp.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/main.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/addGoods.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/updateSelectGoods.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/po/Goods.java" />
@@ -147,7 +167,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/service/admin/AdminGoodsServiceImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/admin/AdminGoodsMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/normal/IndexMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/normal/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/dao/AdminDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/dao/UserDao.java" />
@@ -161,10 +180,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/controller/admin/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/service/normal/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/service/normal/UserServiceImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/controller/normal/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/njxzc/dao/IndexDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/admin/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/controller/normal/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/controller/normal/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/dao/UserCenterDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/controller/normal/UserCenterController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/service/normal/UserCenterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/service/normal/UserCenterServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/normal/IndexMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/normal/UserCenterMapper.xml" />
       </list>
     </option>
   </component>
@@ -337,15 +363,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="njxzc" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="njxzc" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -411,6 +428,15 @@
               <item name="IKEA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="njxzc" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -420,15 +446,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IKEA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IKEA" type="b2602c69:ProjectViewProjectNode" />
@@ -490,21 +507,21 @@
       <recent name="com.njxzc.mapper" />
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/normal" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/njxzc/mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.njxzc.dao" />
+      <recent name="com.njxzc.service.normal" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/admin" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/css" />
       <recent name="$PROJECT_DIR$/src/main/webapp/images/index" />
       <recent name="$PROJECT_DIR$/src/main/webapp/css" />
       <recent name="$PROJECT_DIR$/src/main/java/com/njxzc/utils" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.njxzc.service.normal" />
-      <recent name="com.njxzc.dao" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/njxzc/mapper/normal" />
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/njxzc/mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -731,7 +748,7 @@
       <workItem from="1556589424227" duration="5142000" />
       <workItem from="1557022107774" duration="7063000" />
       <workItem from="1557195745081" duration="5566000" />
-      <workItem from="1557379836298" duration="41000" />
+      <workItem from="1557379836298" duration="1199000" />
     </task>
     <task id="LOCAL-00001" summary="测试文件！">
       <created>1554799994476</created>
@@ -817,7 +834,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557196553764</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="用户登录前端OK">
+      <created>1557380026821</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1557380026821</updated>
+    </task>
+    <task id="LOCAL-00014" summary="前端用户中心OK">
+      <created>1557381019849</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1557381019849</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -832,7 +863,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80213000" />
+    <option name="totallyTimeSpent" value="81371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="732" extended-state="0" />
@@ -916,7 +947,9 @@
     <MESSAGE value="拥有可以run的界面啦 更新就不再404" />
     <MESSAGE value="登陆注册界面接口哦了+查询商品写了没测" />
     <MESSAGE value="增加了normal的部分dao文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加了normal的部分dao文件" />
+    <MESSAGE value="用户登录前端OK" />
+    <MESSAGE value="前端用户中心OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端用户中心OK" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -932,40 +965,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/layui/lay/modules/tree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-2.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-1.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-0.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/layer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon-ext.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1018,6 +1017,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,13 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1371">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/dao/AdminGoodsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1121,6 +1114,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
           <caret line="32" column="4" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1129,32 +1123,6 @@
         <state relative-caret-position="705">
           <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/mapper/normal/IndexMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <marker date="1557197782423" expanded="true" signature="255:577" ph="SELECT sum(o... GOODSTABLE" />
-            <marker date="1557197782423" expanded="true" signature="653:910" ph="SELECT COUNT... GOODSTABLE" />
-            <marker date="1557197782423" expanded="true" signature="986:1031" ph="SELECT * FRO... noticetable" />
-            <marker date="1557197782423" expanded="true" signature="1132:1300" ph="SELECT gt.*,... GOODSTABLE" />
-            <marker date="1557197782423" expanded="true" signature="1411:1512" ph="SELECT gt.*,... goodstable" />
-            <marker date="1557197782423" expanded="true" signature="1606:1737" ph="SELECT gt.*,... GOODSTABLE" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/mapper/normal/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="57" lean-forward="false" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-          <folding>
-            <marker date="1557197937358" expanded="true" signature="254:323" ph="SELECT * FRO... busertable" />
-            <marker date="1557197937358" expanded="true" signature="384:459" ph="INSERT INTO busertable... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1171,16 +1139,6 @@
         <state relative-caret-position="60">
           <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1258,23 +1216,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/mapper/normal/CartMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding>
-            <marker date="1556593067318" expanded="true" signature="250:352" ph="INSERT INTO focustable... " />
-            <marker date="1556593067318" expanded="true" signature="443:520" ph="SELECT * FRO... focustable" />
-            <marker date="1556593067318" expanded="true" signature="616:692" ph="SELECT * fro... carttable" />
-            <marker date="1556593067318" expanded="true" signature="766:878" ph="INSERT INTO carttable... " />
-            <marker date="1556593067318" expanded="true" signature="955:1066" ph="UPDATE cartt... " />
-            <marker date="1556593067318" expanded="true" signature="1164:1352" ph="SELECT gt.id... GOODSTABLE" />
-            <marker date="1556593067318" expanded="true" signature="1431:1504" ph="DELETE FROM " />
-            <marker date="1556593067318" expanded="true" signature="1580:1628" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/service/normal/IndexServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
@@ -1293,29 +1234,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/normal/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-            <element signature="e#1233#1234#0" expanded="true" />
-            <element signature="e#1579#1580#0" expanded="true" />
-            <element signature="e#1642#1643#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/dao/IndexDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/service/normal/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1328,7 +1246,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
+        <state relative-caret-position="0">
           <caret line="55" column="40" lean-forward="false" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
           <folding />
         </state>
@@ -1336,9 +1254,146 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/admin/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="915">
+          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/normal/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/dao/AdminGoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/dao/IndexDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/dao/UserCenterDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/normal/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/service/normal/UserCenterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/service/normal/UserCenterServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/mapper/normal/IndexMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="54" lean-forward="false" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+          <folding>
+            <marker date="1557197782423" expanded="true" signature="255:577" ph="SELECT sum(o... GOODSTABLE" />
+            <marker date="1557197782423" expanded="true" signature="653:910" ph="SELECT COUNT... GOODSTABLE" />
+            <marker date="1557197782423" expanded="true" signature="986:1031" ph="SELECT * FRO... noticetable" />
+            <marker date="1557197782423" expanded="true" signature="1132:1300" ph="SELECT gt.*,... GOODSTABLE" />
+            <marker date="1557197782423" expanded="true" signature="1411:1512" ph="SELECT gt.*,... goodstable" />
+            <marker date="1557197782423" expanded="true" signature="1606:1737" ph="SELECT gt.*,... GOODSTABLE" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/mapper/normal/CartMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding>
+            <marker date="1556593067318" expanded="true" signature="250:352" ph="INSERT INTO focustable... " />
+            <marker date="1556593067318" expanded="true" signature="443:520" ph="SELECT * FRO... focustable" />
+            <marker date="1556593067318" expanded="true" signature="616:692" ph="SELECT * fro... carttable" />
+            <marker date="1556593067318" expanded="true" signature="766:878" ph="INSERT INTO carttable... " />
+            <marker date="1556593067318" expanded="true" signature="955:1066" ph="UPDATE cartt... " />
+            <marker date="1556593067318" expanded="true" signature="1164:1352" ph="SELECT gt.id... GOODSTABLE" />
+            <marker date="1556593067318" expanded="true" signature="1431:1504" ph="DELETE FROM " />
+            <marker date="1556593067318" expanded="true" signature="1580:1628" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/mapper/normal/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <marker date="1557197937358" expanded="true" signature="254:323" ph="SELECT * FRO... busertable" />
+            <marker date="1557197937358" expanded="true" signature="384:459" ph="INSERT INTO busertable... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/mapper/normal/UserCenterMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1557380916280" expanded="true" signature="262:363" ph="SELECT id, a... ORDERBASETABLE" />
+            <marker date="1557380916280" expanded="true" signature="443:597" ph="SELECT gt.id... FOCUSTABLE" />
+            <marker date="1557380916280" expanded="true" signature="681:862" ph="SELECT gt.id... GOODSTABLE" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/njxzc/controller/normal/UserCenterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
