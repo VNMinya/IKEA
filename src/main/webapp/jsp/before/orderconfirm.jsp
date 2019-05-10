@@ -11,9 +11,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>订单确认</title>
-<link href="css/before/daohang.css" rel="stylesheet" type="text/css" />
-<link href="css/before/common.css" rel="stylesheet" type="text/css" />
-<link href="css/before/style.css" rel="stylesheet" type="text/css" />
+<link href="/css/before/daohang.css" rel="stylesheet" type="text/css" />
+<link href="/css/before/common.css" rel="stylesheet" type="text/css" />
+<link href="/css/before/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 	function submitorder(total){
 		if(window.confirm("是否真的提交订单，提交后不可再修改订单信息！")){

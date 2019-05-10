@@ -14,7 +14,7 @@ import javax.servlet.http.HttpSession;
 
 @Controller
 @RequestMapping("/index")
-public class IndexController extends BaseNormalController {
+public class IndexController {
     @Autowired
     private IndexService indexService;
     @Autowired
@@ -43,6 +43,22 @@ public class IndexController extends BaseNormalController {
     @RequestMapping("/toRegister")
     public String toRegister(Model model){
         return indexService.toRegister(model);
+    }
+
+    /**
+     * 转到登录页面
+     */
+    @RequestMapping("/toLogin")
+    public String toLogin(Model model) {
+        return indexService.toLogin(model);
+    }
+
+    /**
+     * 转到公告页面
+     */
+    @RequestMapping("/selectANotice")
+    public String selectANotice(Model model,Integer id) {
+        return indexService.selectANotice(model, id);
     }
 
     /**

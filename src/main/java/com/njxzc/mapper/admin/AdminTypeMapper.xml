@@ -5,7 +5,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 <mapper namespace="com.njxzc.dao.AdminTypeDao">
 
 	<!-- toAddType-->
-	<select id="selectGoodsType" resultMap="com.njxzc.po.Goodstype">
+	<select id="selectGoodsType" resultType="GoodsType">
 		select * FROM goodstype;
 	</select>
 
@@ -13,7 +13,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<insert id="addType" parameterType="String">
 		insert into goodstype (id, typename) values (NULL, #{type})
 	</insert>
-	
+
 	<!--deleteType-->
 	<delete id="deleteType" parameterType="Integer">
 		delete FROM goodstype where id=#{id}

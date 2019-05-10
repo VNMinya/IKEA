@@ -11,9 +11,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>订单完成</title>
-<link href="css/before/daohang.css" rel="stylesheet" type="text/css" />
-<link href="css/before/common.css" rel="stylesheet" type="text/css" />
-<link href="css/before/style.css" rel="stylesheet" type="text/css" />
+<link href="/css/before/daohang.css" rel="stylesheet" type="text/css" />
+<link href="/css/before/common.css" rel="stylesheet" type="text/css" />
+<link href="/css/before/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 			//确定按钮
 			function gogo(){

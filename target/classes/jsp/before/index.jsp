@@ -11,9 +11,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>首页</title>
-<link href="css/before/daohang.css" rel="stylesheet" type="text/css" />
-<link href="css/before/common.css" rel="stylesheet" type="text/css" />
-<link href="css/before/style.css" rel="stylesheet" type="text/css" />
+<link href="/css/before/daohang.css" rel="stylesheet" type="text/css" />
+<link href="/css/before/common.css" rel="stylesheet" type="text/css" />
+<link href="/css/before/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 		function openNotice(url){
 			window.open (url, '站内公告', 'height=400, width=400, top=100, left=100, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=n o, status=no');

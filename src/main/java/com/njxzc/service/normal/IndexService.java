@@ -12,4 +12,5 @@ public interface IndexService {
     public String toLogin(Model model);
     public String goodsDetail(Model model, Integer id);
     public String search(Model model, String mykey);
+    public String selectANotice(Model model, Integer id);
 }

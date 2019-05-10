@@ -4,6 +4,7 @@ import com.njxzc.dao.AdminGoodsDao;
 import com.njxzc.po.Goods;
 import com.njxzc.utils.MyUtil;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import org.springframework.ui.Model;
 

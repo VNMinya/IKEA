@@ -9,13 +9,14 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.Model;
 import com.njxzc.dao.UserDao;
 import com.njxzc.po.Buser;
+import org.springframework.web.bind.annotation.ModelAttribute;
 
 @Service("userService")
 public class UserServiceImp implements UserService {
     @Autowired
     private UserDao userDao;
     @Override
-    public String register(Buser buser, Model model, HttpSession session, String code) {
+    public String register(@ModelAttribute("buser") Buser buser, Model model, HttpSession session, String code) {
         if(!code.equalsIgnoreCase(session.getAttribute("code").toString())) {
             model.addAttribute("codeError", "验证码错误！");
             return "before/register";

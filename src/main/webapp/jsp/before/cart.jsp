@@ -11,9 +11,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>购物车</title>
-<link href="css/before/daohang.css" rel="stylesheet" type="text/css" />
-<link href="css/before/common.css" rel="stylesheet" type="text/css" />
-<link href="css/before/style.css" rel="stylesheet" type="text/css" />
+<link href="/css/before/daohang.css" rel="stylesheet" type="text/css" />
+<link href="/css/before/common.css" rel="stylesheet" type="text/css" />
+<link href="/css/before/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 	//确认
 	function  goOrderConfirm(){
@@ -42,7 +42,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<div class="block clearfix">
 		<!--当前位置-->
 		<div class="location ared">
-			当前位置： <a href="before?id=0">首页</a> > 购物流程 > 购物车
+			当前位置： <a href="/before?id=0">首页</a> > 购物流程 > 购物车
 		</div>
 		<div class="blank"></div>
 		<div>
@@ -68,7 +68,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									style="width: 100px; height: 100px;" src="logos/${ce.gpicture}"
 									border="0" title="${ce.gname}" />
 							</a><br /> <a style="text-decoration: none;"
-								href="goodsDetail?id=${ce.id}" class="f6">${ce.gname}</a></td>
+								href="/goodsDetail?id=${ce.id}" class="f6">${ce.gname}</a></td>
 							<td bgcolor="#ffffff" width="110px" align="center"><span>${ce.grprice}</span></td>
 							<td align="center" bgcolor="#ffffff" width="115px"
 								valign="middle"><input type="text" name="goods_number"
@@ -79,7 +79,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							<td align="center" bgcolor="#ffffff" width="185px"><a
 								style="text-decoration: none;"
 								href="javaScript:deleteAgoods('${ce.id}')" class="f6" title="删除"><img
-									src="images/before/sc.png" /> </a></td>
+									src="/images/before/sc.png" /> </a></td>
 						</tr>
 					</c:forEach>
 					<tr>
@@ -95,14 +95,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					<tr>
 						<td bgcolor="#ffffff" colspan="4" align="right"
 							style="padding: 5px; padding-left: 2px; border-right: 0 none">
-							<a href="before"> <img src="images/before/jxgw.jpg"
+							<a href="before"> <img src="/images/before/jxgw.jpg"
 								alt="continue" />
 						</a>
 						</td>
 						<td bgcolor="#ffffff" align="center"
 							style="border-left: 0 none; padding: 5px; padding-right: 2px;">
 							<a style="cursor: pointer;" href="javascript:goOrderConfirm()">
-								<img src="images/before/qjs.jpg" alt="checkout" />
+								<img src="/images/before/qjs.jpg" alt="checkout" />
 						</a>
 						</td>
 					</tr>

@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.njxzc</groupId>
-	<artifactId>webdesign</artifactId>
+	<artifactId>IKEA</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>webdesign Maven Webapp</name>
+	<name>IKEA Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -296,7 +296,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>webdesign</finalName>
+		<finalName>IKEA</finalName>
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -310,7 +310,7 @@
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat8-maven-plugin</artifactId>
-				<version>3.0-r1756463</version>
+				<!--<version>3.0-r1756463</version>-->
 				<configuration>
 					<port>8080</port>
 					<path>/</path>
@@ -366,6 +366,12 @@
 					<include>**/*.xml</include>
 				</includes>
 				<filtering>true</filtering>
+			</resource>
+			<resource>
+				<directory>src/main/java</directory>
+				<includes>
+					<include>**/*.xml</include>
+				</includes>
 			</resource>
 		</resources>
 

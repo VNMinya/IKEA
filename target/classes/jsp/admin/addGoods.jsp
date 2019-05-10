@@ -9,7 +9,7 @@
 <head>
 	<base href="<%=basePath%>">
 	<title>addGoods.jsp</title>
-	<link href="css/admin/common.css" type="text/css" rel="stylesheet">
+	<link href="/css/admin/common.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 <form:form action="adminGoods/addGoods" method="post" modelAttribute="goods" enctype="multipart/form-data">

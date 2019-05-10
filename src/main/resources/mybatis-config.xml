@@ -3,21 +3,25 @@
 		PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 		"http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-	<!--<typeAliases>-->
-		<!--<typeAlias alias="Auser" type="com.njxzc.po.Auser"/>-->
-		<!--<typeAlias alias="Goods" type="com.njxzc.po.Goods"/>-->
-		<!--<typeAlias alias="GoodsType" type="com.njxzc.po.GoodsType"/>-->
-		<!--&lt;!&ndash;<typeAlias alias="Notice" type="com.njxzc.po.Notice"/>&ndash;&gt;-->
-		<!--&lt;!&ndash;<typeAlias alias="Buser" type="com.njxzc.po.Buser"/>&ndash;&gt;-->
-		<!--&lt;!&ndash;<typeAlias alias="Order" type="com.njxzc.po.Order"/>&ndash;&gt;-->
-	<!--</typeAliases>-->
-	<!--<mappers>-->
-		<!--<mapper resource="com.njxzc/mapper/admin/AdminGoodsMapper.xml"/>-->
-		<!--<mapper resource="com.njxzc/mapper/admin/AdminTypeMapper.xml"/>-->
-		<!--&lt;!&ndash;<mapper resource="com.njxzc/mapper/admin/AdminMapper.xml"/>&ndash;&gt;-->
-		<!--&lt;!&ndash;<mapper resource="com.njxzc/mapper/admin/AdminNoticeMapper.xml"/>&ndash;&gt;-->
-		<!--&lt;!&ndash;<mapper resource="com.njxzc/mapper/admin/AdminUserMapper.xml"/>&ndash;&gt;-->
-		<!--&lt;!&ndash;<mapper resource="com.njxzc/mapper/admin/AdminOrderMapper.xml"/>&ndash;&gt;-->
-		<!--<mapper resource="com.njxzc/mapper/normal/CartMapper.xml"/>-->
-	<!--</mappers>-->
+	<typeAliases>
+		<typeAlias alias="Auser" type="com.njxzc.po.Auser"/>
+		<typeAlias alias="Goods" type="com.njxzc.po.Goods"/>
+		<typeAlias alias="GoodsType" type="com.njxzc.po.GoodsType"/>
+		<typeAlias alias="Notice" type="com.njxzc.po.Notice"/>
+		<typeAlias alias="Buser" type="com.njxzc.po.Buser"/>
+		<typeAlias alias="Order" type="com.njxzc.po.Order"/>
+	</typeAliases>
+	<mappers>
+		<mapper resource="com/njxzc/mapper/admin/AdminGoodsMapper.xml"/>
+		<mapper resource="com/njxzc/mapper/admin/AdminMapper.xml"/>
+		<mapper resource="com/njxzc/mapper/admin/AdminTypeMapper.xml"/>
+		<mapper resource="com/njxzc/mapper/admin/AdminNoticeMapper.xml"/>
+		<mapper resource="com/njxzc/mapper/admin/AdminUserMapper.xml"/>
+		<mapper resource="com/njxzc/mapper/admin/AdminOrderMapper.xml"/>
+		<mapper resource="com/njxzc/mapper/normal/IndexMapper.xml"/>
+		<mapper resource="com/njxzc/mapper/normal/UserMapper.xml"/>
+		<mapper resource="com/njxzc/mapper/normal/CartMapper.xml"/>
+		<mapper resource="com/njxzc/mapper/normal/OrderMapper.xml"/>
+		<mapper resource="com/njxzc/mapper/normal/UserCenterMapper.xml"/>
+	</mappers>
 </configuration>

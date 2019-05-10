@@ -13,7 +13,7 @@ import com.njxzc.service.admin.AdminServiceImp;
  * 管理员登陆
  */
 @Controller
-public class AdminController extends BaseController {
+public class AdminController {
     @Autowired
     private AdminServiceImp adminService;
 

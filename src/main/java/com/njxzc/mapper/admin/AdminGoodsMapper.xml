@@ -4,6 +4,23 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.njxzc.dao.AdminGoodsDao">
 
+	<!-- resultMap最终还是要将结果映射到pojo上，type就是指定映射到哪一个pojo -->
+	<!-- id：设置ResultMap的id -->
+	<resultMap type="com.njxzc.po.Goods" id="Goods">
+		<!-- 定义主键 ,非常重要。如果是多个字段,则定义多个id -->
+		<!-- property：主键在pojo中的属性名 -->
+		<!-- column：主键在数据库中的列名 -->
+		<id property="id" column="id" />
+
+		<!-- 定义普通属性 -->
+		<result property="gname" column="gname" />
+		<result property="goprice" column="goprice" />
+		<result property="grprice" column="grprice" />
+		<result property="gstore" column="gstore" />
+		<result property="gpicture" column="gpicture" />
+		<result property="goodstype_id" column="goodstype_id" />
+	</resultMap>
+
 	<!-- AddGoods -->
 	<insert id="addGoods" parameterType="com.njxzc.po.Goods">
 		INSERT INTO goodstable(id, gname, goprice, grprice, gstore, gpicture, goodstype_id)
@@ -11,17 +28,17 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	</insert>
 
 	<!-- SelectGoods -->
-	<select id="selectGoods" resultMap="Goods">
+	<select id="selectGoods" resultType="Goods">
 		SELECT * FROM goodstable
 	</select>
 
 	<!-- 分页查询 -->
-	<select id="selectAllGoodsByPage" resultMap="Goods" parameterType="map">
+	<select id="selectAllGoodsByPage" resultType="Goods" parameterType="map">
 		SELECT * FROM goodstable ORDER BY id LIMIT #{startIndex}, #{perPageSize}
 	</select>
 
 	<!-- 根据id查询 -->
-	<select id="selectGoodsById" resultMap="Goods" parameterType="Integer">
+	<select id="selectGoodsById" resultType="Goods" parameterType="Integer">
 		SELECT gt.*, gy.typename FROM goodstable gt, goodstype gy WHERE gt.id = #{id} AND gt.goodstype_id = gy.id
 	</select>
 

@@ -11,7 +11,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>updateAgoods.jsp</title>
-<link href="css/admin/common.css" type="text/css" rel="stylesheet">
+<link href="/css/admin/common.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 	<form:form action="adminGoods/addGoods?updateAct=update" method="post"

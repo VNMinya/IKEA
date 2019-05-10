@@ -10,7 +10,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>updateSelectGoods.jsp</title>
-<link href="css/admin/common.css" type="text/css" rel="stylesheet">
+<link href="/css/admin/common.css" type="text/css" rel="stylesheet">
 <style type="text/css">
 table {
 	text-align: center;

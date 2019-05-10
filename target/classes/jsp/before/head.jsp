@@ -10,9 +10,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>首页</title>
-<link href="css/before/daohang.css" rel="stylesheet" type="text/css" />
-<link href="css/before/common.css" rel="stylesheet" type="text/css" />
-<link href="css/before/style.css" rel="stylesheet" type="text/css" />
+<link href="/css/before/daohang.css" rel="stylesheet" type="text/css" />
+<link href="/css/before/common.css" rel="stylesheet" type="text/css" />
+<link href="/css/before/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 	function clearValue(){
 		document.myForm.mykey.value = "";
@@ -53,7 +53,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<!--logo 搜索-->
 		<div class="all_zong_logo">
 			<div class="all_zong_logo2">
-				<img src="images/before/mylogo.png" />
+				<img src="/images/before/mylogo.png" />
 			</div>
 			<div class="back_search">
 				<div class="back_search_red">
