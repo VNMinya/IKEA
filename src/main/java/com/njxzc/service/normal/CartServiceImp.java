@@ -34,7 +34,7 @@ public class CartServiceImp implements CartService{
             else
                 model.addAttribute("msg", "关注失败");
         }
-        return "forward:/goodsDetail?id=" + id;
+        return "forward:/goodsDetail.do?id=" + id;
     }
     @Override
     public String putCart(Model model, Integer shoppingnum, Integer id, HttpSession session) {
@@ -48,7 +48,7 @@ public class CartServiceImp implements CartService{
             cartDao.updateCart(map);
         else
             cartDao.putCart(map);
-        return "forward:/cart/selectCart";
+        return "forward:/cart/selectCart.do";
     }
 
     @Override
@@ -69,13 +69,13 @@ public class CartServiceImp implements CartService{
         map.put("uid", MyUtil.getUserId(session));
         map.put("gid", id);
         cartDao.deleteAgoods(map);
-        return "forward:/cart/selectCart";
+        return "forward:/cart/selectCart.do";
     }
 
     @Override
     public String clear(HttpSession session) {
         cartDao.clear(MyUtil.getUserId(session));
-        return "forward:/cart/selectCart";
+        return "forward:/cart/selectCart.do";
     }
 
     @Override

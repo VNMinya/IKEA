@@ -16,42 +16,42 @@ public class CartController extends BaseNormalController{
 	/**
 	 * ��ע��Ʒ
 	 */
-	@RequestMapping("/focus")
+	@RequestMapping("/focus.do")
 	public String focus(Model model,Integer id, HttpSession session) {
 		return cartService.focus(model, id, session);
 	}
 	/**
 	 * ��ӹ��ﳵ
 	 */
-	@RequestMapping("/putCart")
+	@RequestMapping("/putCart.do")
 	public String putCart(Model model,Integer shoppingnum, Integer id, HttpSession session) {
 		return cartService.putCart(model, shoppingnum, id, session);
 	}
 	/**
 	 * ��ѯ���ﳵ
 	 */
-	@RequestMapping("/selectCart")
+	@RequestMapping("/selectCart.do")
 	public String selectCart(Model model, HttpSession session) {
 		return cartService.selectCart(model, session);
 	}
 	/**
 	 * ɾ�����ﳵ
 	 */
-	@RequestMapping("/deleteAgoods")
+	@RequestMapping("/deleteAgoods.do")
 	public String deleteAgoods(Integer id,HttpSession session) {
 		return cartService.deleteAgoods(id, session);
 	}
 	/**
 	 * ��չ��ﳵ
 	 */
-	@RequestMapping("/clear")
+	@RequestMapping("/clear.do")
 	public String clear(HttpSession session) {
 		return cartService.clear(session);
 	}
 	/**
 	 * ȥ����
 	 */
-	@RequestMapping("/orderConfirm")
+	@RequestMapping("/orderConfirm.do")
 	public String orderConfirm(Model model, HttpSession session) {
 		return cartService.orderConfirm(model, session);
 	}

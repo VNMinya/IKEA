@@ -23,7 +23,7 @@ public class AdminTypeServiceImp implements AdminTypeService{
         //添加商品与修改商品页面使用
 
         session.setAttribute("goodsType", adminTypeDao.selectGoodsType());
-        return "forward:/adminType/toAddType";
+        return "forward:/adminType/toAddType.do";
     }
 
     //toDeleteType
@@ -37,15 +37,15 @@ public class AdminTypeServiceImp implements AdminTypeService{
         //类型有关联
         if(adminTypeDao.selectGoodsByType(id).size()>0){
             model.addAttribute("msg", "类型有关联，不允许删除！");
-            return "forward:/adminType/toDeleteType";
+            return "forward:/adminType/toDeleteType.do";
         }
         if(adminTypeDao.deleteType(id)>0){
             model.addAttribute("msg", "类型成功删除！");
             //返回删除界面
-            return "forward:/adminType/toDeleteType";
+            return "forward:/adminType/toDeleteType.do";
         }
         //啥都不干 返回删除界面
         model.addAttribute("msg", "没有删除操作！");
-        return "forward:/adminType/toDeleteType";
+        return "forward:/adminType/toDeleteType.do";
     }
 }

@@ -11,9 +11,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>支付完成完成</title>
-<link href="/css/before/daohang.css" rel="stylesheet" type="text/css" />
-<link href="/css/before/common.css" rel="stylesheet" type="text/css" />
-<link href="/css/before/style.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/daohang.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/common.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 	<div class="blank"></div>

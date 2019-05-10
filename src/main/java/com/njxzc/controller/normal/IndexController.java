@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.servlet.http.HttpSession;
 
 @Controller
-@RequestMapping("/index")
+@RequestMapping("")
 public class IndexController {
     @Autowired
     private IndexService indexService;
@@ -23,7 +23,7 @@ public class IndexController {
     /**
      * 首页
      */
-    @RequestMapping("/before")
+    @RequestMapping("/before.do")
     public String before(Model model, HttpSession httpSession, Goods goods){
         return indexService.before(model, httpSession, goods);
     }
@@ -31,7 +31,7 @@ public class IndexController {
     /**
      * 首页搜索
      */
-    @RequestMapping("/search")
+    @RequestMapping("/search.do")
     public String search(Model model, String mykey){
         return indexService.search(model, mykey);
     }
@@ -39,24 +39,25 @@ public class IndexController {
     /**
      * 转到注册界面
      */
-    //TODO 没写userService
-    @RequestMapping("/toRegister")
+    @RequestMapping("/toRegister.do")
     public String toRegister(Model model){
+//        model.addAttribute("buser", new Buser());
         return indexService.toRegister(model);
     }
 
     /**
      * 转到登录页面
      */
-    @RequestMapping("/toLogin")
+    @RequestMapping("/toLogin.do")
     public String toLogin(Model model) {
+//        model.addAttribute("buser", new Buser());
         return indexService.toLogin(model);
     }
 
     /**
      * 转到公告页面
      */
-    @RequestMapping("/selectANotice")
+    @RequestMapping("/selectANotice.do")
     public String selectANotice(Model model,Integer id) {
         return indexService.selectANotice(model, id);
     }
@@ -64,7 +65,7 @@ public class IndexController {
     /**
      * 转到商品详情页
      */
-    @RequestMapping("/goodsDetail")
+    @RequestMapping("/goodsDetail.do")
     public String goodsDetail(Model model, Integer integer){
         return indexService.goodsDetail(model, integer);
     }

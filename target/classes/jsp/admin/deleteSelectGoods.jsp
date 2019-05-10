@@ -10,7 +10,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>selectGoods.jsp</title>
-<link href="/css/admin/common.css" type="text/css" rel="stylesheet">
+<link href="../../css/admin/common.css" type="text/css" rel="stylesheet">
 <style type="text/css">
 table {
 	text-align: center;
@@ -61,7 +61,7 @@ table {
   		}
   		function checkDel(id){
   			if(window.confirm("是否删除该商品？")){
-  				window.location.href = "/ch20/adminGoods/deleteAGoods?id="+id;
+  				window.location.href = "/adminGoods/deleteAGoods.do?id="+id;
   			}
   		}
   </script>
@@ -71,7 +71,7 @@ table {
 		您还没有商品。
 	</c:if>
 	<c:if test="${allGoods.size() != 0 }">
-		<form action="adminGoods/deleteGoods" name="deleteForm">
+		<form action="/adminGoods/deleteGoods.do" name="deleteForm">
 			<table border="1" bordercolor="PaleGreen">
 				<tr>
 					<th width="100px">ID</th>
@@ -100,10 +100,10 @@ table {
 					<td colspan="6" align="right">&nbsp;&nbsp;&nbsp;
 						&nbsp;&nbsp;&nbsp;共${totalCount}条记录&nbsp;&nbsp;共${totalPage}页&nbsp;&nbsp;
 						第${pageCur}页&nbsp;&nbsp; <c:url var="url_pre"
-							value="adminGoods/selectGoods">
+							value="/adminGoods/selectGoods.do">
 							<c:param name="pageCur" value="${pageCur - 1 }" />
 							<c:param name="act" value="deleteSelect" />
-						</c:url> <c:url var="url_next" value="adminGoods/selectGoods">
+						</c:url> <c:url var="url_next" value="/adminGoods/selectGoods.do">
 							<c:param name="pageCur" value="${pageCur + 1 }" />
 							<c:param name="act" value="deleteSelect" />
 						</c:url> <!-- 第一页没有上一页 --> <c:if test="${pageCur != 1 }">

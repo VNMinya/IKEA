@@ -10,9 +10,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>用户中心</title>
-<link href="/css/before/daohang.css" rel="stylesheet" type="text/css" />
-<link href="/css/before/common.css" rel="stylesheet" type="text/css" />
-<link href="/css/before/style.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/daohang.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/common.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 	<div class="blank"></div>
@@ -43,11 +43,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									test="${mo.status == 0}">
 							未付款&nbsp;&nbsp;
 							<a style="text-decoration: none;" class="f6"
-										href="order/pay?ordersn=${mo.id}">去支付</a>
+										href="/order/pay.do?ordersn=${mo.id}">去支付</a>
 								</c:if> <c:if test="${mo.status == 1}">已付款</c:if></td>
 							<td align="center" bgcolor="#ffffff"><a
 								style="text-decoration: none;" class="f6"
-								href="orderDetail?ordersn=${mo.id}" target="_blank">详情</a></td>
+								href="/orderDetail.do?ordersn=${mo.id}" target="_blank">详情</a></td>
 						</tr>
 					</c:forEach>
 				</table>
@@ -75,12 +75,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							<td bgcolor="#ffffff" align="center">${mf.id}</td>
 							<td bgcolor="#ffffff" align="center">${mf.gname}</td>
 							<td align="center" bgcolor="#ffffff" height="60px"><img
-								style="width: 50px; height: 50px;" src="logos/${mf.gpicture}"
+								style="width: 50px; height: 50px;" src="../../logos/${mf.gpicture}"
 								border="0" title="${mf.gname}" /></td>
 							<td align="center" bgcolor="#ffffff">${mf.grprice}</td>
 							<td align="center" bgcolor="#ffffff"><a
 								style="text-decoration: none;" class="f6"
-								href="goodsDetail?id=${mf.id}">去看看</a></td>
+								href="/goodsDetail.do?id=${mf.id}">去看看</a></td>
 						</tr>
 					</c:forEach>
 				</table>

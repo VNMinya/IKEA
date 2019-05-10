@@ -10,11 +10,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>addNotice.jsp</title>
-<link href="/css/admin/common.css" type="text/css" rel="stylesheet">
+<link href="../../css/admin/common.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-	<form:form action="adminNotice/addNotice" method="post"
-		modelAttribute="notice">
+	<form:form action="adminNotice/addNotice.do" method="post" modelAttribute="notice">
 		<table border=1 style="border-collapse: collapse">
 			<caption>
 				<font size=4 face=华文新魏>添加公告</font>

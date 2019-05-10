@@ -11,18 +11,18 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>购物车</title>
-<link href="/css/before/daohang.css" rel="stylesheet" type="text/css" />
-<link href="/css/before/common.css" rel="stylesheet" type="text/css" />
-<link href="/css/before/style.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/daohang.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/common.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 	//确认
 	function  goOrderConfirm(){
-		window.location.href="/ch20/cart/orderConfirm";
+		window.location.href="/cart/orderConfirm.do";
 	}
 	//清空
 	function godelete(){
 		if(window.confirm("真的清空购物车吗？")){
-			window.location.href="/ch20/cart/clear";
+			window.location.href="/cart/clear.do";
 			return true;
 		}
 		return false;
@@ -30,7 +30,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	//删除
 	function deleteAgoods(gno){
 		if(window.confirm("真的删除该商品吗？")){
-			window.location.href="/ch20/cart/deleteAgoods?id=" + gno;
+			window.location.href="/cart/deleteAgoods.do?id=" + gno;
 			return true;
 		}
 		return false;
@@ -42,7 +42,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<div class="block clearfix">
 		<!--当前位置-->
 		<div class="location ared">
-			当前位置： <a href="/before?id=0">首页</a> > 购物流程 > 购物车
+			当前位置： <a href="/before.do?id=0">首页</a> > 购物流程 > 购物车
 		</div>
 		<div class="blank"></div>
 		<div>
@@ -64,11 +64,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					<c:forEach var="ce" items="${cartlist}">
 						<tr>
 							<td bgcolor="#ffffff" align="center"><a
-								href="goodsDetail?id=${ce.id}"> <img
+								href="/goodsDetail.do?id=${ce.id}"> <img
 									style="width: 100px; height: 100px;" src="logos/${ce.gpicture}"
 									border="0" title="${ce.gname}" />
 							</a><br /> <a style="text-decoration: none;"
-								href="/goodsDetail?id=${ce.id}" class="f6">${ce.gname}</a></td>
+								href="/goodsDetail.do?id=${ce.id}" class="f6">${ce.gname}</a></td>
 							<td bgcolor="#ffffff" width="110px" align="center"><span>${ce.grprice}</span></td>
 							<td align="center" bgcolor="#ffffff" width="115px"
 								valign="middle"><input type="text" name="goods_number"
@@ -79,7 +79,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							<td align="center" bgcolor="#ffffff" width="185px"><a
 								style="text-decoration: none;"
 								href="javaScript:deleteAgoods('${ce.id}')" class="f6" title="删除"><img
-									src="/images/before/sc.png" /> </a></td>
+									src="../../images/before/sc.png" /> </a></td>
 						</tr>
 					</c:forEach>
 					<tr>

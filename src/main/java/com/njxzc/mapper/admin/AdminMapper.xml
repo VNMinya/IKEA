@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
 		PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.dao.AdminDao">
+<mapper namespace="com.njxzc.dao.AdminDao">
 
 	<!--查询管理员用户信息-->
 	<select id="login"  resultType="Auser" parameterType="Auser">

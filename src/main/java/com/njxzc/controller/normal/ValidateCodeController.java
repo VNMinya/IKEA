@@ -27,10 +27,9 @@ public class ValidateCodeController {
     private static final int HEIGHT = 20;
     private static final int LENGTH = 4;
 
-    @RequestMapping("/validateCode")
+    @RequestMapping("/validateCode.do")
     public void validateCode(HttpServletRequest request,
                              HttpServletResponse response) throws ServletException, IOException {
-        // TODO Auto-generated method stub
         // 设置响应报头信息
         response.setHeader("Pragma", "No-cache");
         response.setHeader("Cache-Control", "no-cache");

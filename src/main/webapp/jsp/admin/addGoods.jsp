@@ -9,10 +9,10 @@
 <head>
 	<base href="<%=basePath%>">
 	<title>addGoods.jsp</title>
-	<link href="/css/admin/common.css" type="text/css" rel="stylesheet">
+	<link href="../../css/admin/common.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-<form:form action="adminGoods/addGoods" method="post" modelAttribute="goods" enctype="multipart/form-data">
+<form:form action="/adminGoods/addGoods.do" method="post" modelAttribute="goods" enctype="multipart/form-data">
 	<table border=1 style="border-collapse: collapse">
 		<caption>
 			<font size=4 face=华文新魏>添加商品</font>

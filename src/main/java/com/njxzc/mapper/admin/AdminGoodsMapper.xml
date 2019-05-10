@@ -28,17 +28,17 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	</insert>
 
 	<!-- SelectGoods -->
-	<select id="selectGoods" resultType="Goods">
+	<select id="selectGoods" resultMap="Goods">
 		SELECT * FROM goodstable
 	</select>
 
 	<!-- 分页查询 -->
-	<select id="selectAllGoodsByPage" resultType="Goods" parameterType="map">
+	<select id="selectAllGoodsByPage" resultMap="Goods" parameterType="map">
 		SELECT * FROM goodstable ORDER BY id LIMIT #{startIndex}, #{perPageSize}
 	</select>
 
 	<!-- 根据id查询 -->
-	<select id="selectGoodsById" resultType="Goods" parameterType="Integer">
+	<select id="selectGoodsById" resultMap="Goods" parameterType="Integer">
 		SELECT gt.*, gy.typename FROM goodstable gt, goodstype gy WHERE gt.id = #{id} AND gt.goodstype_id = gy.id
 	</select>
 

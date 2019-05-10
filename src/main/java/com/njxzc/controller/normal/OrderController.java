@@ -1,22 +1,28 @@
-package com.njxzc.controller.normal;
+package com.controller.before;
 
+import javax.servlet.http.HttpSession;
 
-import com.njxzc.service.admin.AdminOrderService;
+import com.njxzc.controller.normal.BaseNormalController;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@RequestMapping("/adminOrder")
-public class OrderController extends BaseNormalController {
+import com.njxzc.service.normal.OrderService;
+
+@Controller
+@RequestMapping("/order")
+public class OrderController extends BaseNormalController{
     @Autowired
-    private AdminOrderService adminOrderService;
-    @RequestMapping("/orderInfo")
-    public String orderInfo(Model model){
-        return adminOrderService.orderInfo(model);
+    private OrderService orderService;
+
+    @RequestMapping("/orderSubmit.do")
+    public String orderSubmit(Model model, HttpSession session,Double amount) {
+        return orderService.orderSubmit(model, session, amount);
     }
-    @RequestMapping("/deleteorderManager")
-    public String deleteorderManager(Integer id){
-        return adminOrderService.deleteorderManager(id);
+
+    @RequestMapping("/pay.do")
+    public String pay(Integer ordersn) {
+        return orderService.pay(ordersn);
     }
 }

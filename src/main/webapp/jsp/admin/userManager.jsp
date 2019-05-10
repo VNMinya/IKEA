@@ -10,7 +10,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>用户管理</title>
-<link href="/css/admin/common.css" type="text/css" rel="stylesheet">
+<link href="../../css/admin/common.css" type="text/css" rel="stylesheet">
 <style type="text/css">
 table {
 	text-align: center;
@@ -30,7 +30,7 @@ table {
 		}
 		function checkDel(id){
   			if(window.confirm("是否删除该用户？")){
-  				window.location.href="/ch20/adminUser/deleteuserManager?id="+id;
+  				window.location.href="/adminUser/deleteuserManager.do?id="+id;
   			}
   		}
 	</script>

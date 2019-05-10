@@ -21,15 +21,15 @@ public class AdminTypeController extends BaseController {
      * 添加类型页面
      */
 
-    @RequestMapping("/toAddType")
+    @RequestMapping("/toAddType.do")
     public String toAddType(Model model){
-        return "admin/addType";
+        return "admin/addType.do";
     }
 
     /**
      * 添加类型
      */
-    @RequestMapping("/addType")
+    @RequestMapping("/addType.do")
     public String addType(String typename, Model model, HttpSession session){
         return adminTypeService.addType(typename, model, session);
     }
@@ -37,7 +37,7 @@ public class AdminTypeController extends BaseController {
     /**
      * 到删除页面
      */
-    @RequestMapping("/toDeleteType")
+    @RequestMapping("/toDeleteType.do")
     public String toDeleteType(Model model){
         return adminTypeService.toDeleteType(model);
     }
@@ -45,7 +45,7 @@ public class AdminTypeController extends BaseController {
     /**
      * 删除类型
      */
-    @RequestMapping("/deleteType")
+    @RequestMapping("/deleteType.do")
     public String deleteType(Integer id, Model model){
         return adminTypeService.deleteType(id, model);
     }

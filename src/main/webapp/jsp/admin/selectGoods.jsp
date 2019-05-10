@@ -10,7 +10,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>selectGoods.jsp</title>
-<link href="/css/admin/common.css" type="text/css" rel="stylesheet">
+<link href="../../css/admin/common.css" type="text/css" rel="stylesheet">
 <style type="text/css">
 table {
 	text-align: center;
@@ -49,7 +49,7 @@ table {
 					<td>${goods.gname }</td>
 					<td>${goods.grprice }</td>
 					<td>${goods.gstore }</td>
-					<td><a href="adminGoods/selectAGoods?id=${goods.id }"
+					<td><a href="/adminGoods/selectAGoods.do?id=${goods.id }"
 						target="_blank">详情</a></td>
 				</tr>
 			</c:forEach>
@@ -57,9 +57,9 @@ table {
 				<td colspan="5" align="right">&nbsp;&nbsp;&nbsp;
 					&nbsp;&nbsp;&nbsp;共${totalCount}条记录&nbsp;&nbsp;共${totalPage}页&nbsp;&nbsp;
 					第${pageCur}页&nbsp;&nbsp; <c:url var="url_pre"
-						value="adminGoods/selectGoods">
+						value="/adminGoods/selectGoods.do">
 						<c:param name="pageCur" value="${pageCur - 1 }" />
-					</c:url> <c:url var="url_next" value="adminGoods/selectGoods">
+					</c:url> <c:url var="url_next" value="/adminGoods/selectGoods.do">
 						<c:param name="pageCur" value="${pageCur + 1 }" />
 					</c:url> <!-- 第一页没有上一页 --> <c:if test="${pageCur != 1 }">
 						<a href="${url_pre}">上一页</a>&nbsp;&nbsp;&nbsp;&nbsp;

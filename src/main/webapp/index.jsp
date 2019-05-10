@@ -1,160 +1,134 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+		 pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%
+	String path = request.getContextPath();
+	String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+<jsp:include page="/jsp/before/head.jsp"></jsp:include>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<%--<html>--%>
-<%--<head>--%>
-<%--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">--%>
-<%--<title>SpringMVC+Spring+Mybatis</title>--%>
-<%--</head>--%>
-<%--<body>--%>
-<%--<div  align="center">--%>
-	<%--<admin>基于Bean方式的控制:</admin>--%>
-	<%--<br>没注册的用户，请<admin  href="${pageContext.request.contextPath }/register">注册</admin>！--%>
-	<%--<br>已注册的用户，去<admin href="${pageContext.request.contextPath }/login">登录</admin>！--%>
-	<%--<br>--%>
-	<%--<admin>------------------</admin>--%>
-	<%--<br><admin>基于注解方式的控制:</admin>--%>
-	<%--<br>没注册的用户，请<admin href="${pageContext.request.contextPath }/index/register">注册</admin>！--%>
-	<%--<br>已注册的用户，去<admin href="${pageContext.request.contextPath }/index/login">登录</admin>！--%>
-
-<%--</div>--%>
-<%--</body>--%>
-<%--</html>--%>
-
-
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<base href="<%=basePath%>">
 	<title>首页</title>
-	<meta name="renderer" content="webkit">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="stylesheet" href="/layui/css/layui.css"  media="all">
-	<!-- 注意：如果你直接复制所有代码到本地，上述css路径需要改成你本地的 -->
+	<link href="../../css/before/daohang.css" rel="stylesheet" type="text/css" />
+	<link href="../../css/before/common.css" rel="stylesheet" type="text/css" />
+	<link href="../../css/before/style.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript">
+        function openNotice(url){
+            window.open (url, '站内公告', 'height=400, width=400, top=100, left=100, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=n o, status=no');
+        }
+	</script>
 </head>
 <body>
-
-
-<ul class="layui-nav">
-	<li class="layui-nav-item layui-this"><a href="">最新活动</a></li>
-	<li class="layui-nav-item">
-		<a href="javascript:;">商品</a>
-		<dl class="layui-nav-child">
-			<dd><a href="">选项1</a></dd>
-			<dd><a href="">选项2</a></dd>
-			<dd><a href="">选项3</a></dd>
-		</dl>
-	</li>
-	<li class="layui-nav-item"><a href="/jsp/admin/login.jsp">登陆</a></li>
-	<li class="layui-nav-item"><a href="/jsp/before/register.jsp">注册</a></li>
-	<li class="layui-nav-item">
-		<a href="javascript:;">解决方案</a>
-		<dl class="layui-nav-child">
-			<dd><a href="">移动模块</a></dd>
-			<dd><a href="">后台模版</a></dd>
-			<dd class="layui-this"><a href="">选中项</a></dd>
-			<dd><a href="">电商平台</a></dd>
-		</dl>
-	</li>
-	<li class="layui-nav-item">
-		<a href="">个人中心<span class="layui-badge-dot"></span></a>
-	</li>
-	<li class="layui-nav-item" lay-unselect="">
-		<a href="javascript:;"><img src="//t.cn/RCzsdCq" class="layui-nav-img">我</a>
-		<dl class="layui-nav-child">
-			<dd><a href="javascript:;">修改信息</a></dd>
-			<dd><a href="javascript:;">安全管理</a></dd>
-			<dd><a href="javascript:;">退了</a></dd>
-		</dl>
-	</li>
-	<li class="layui-nav-item"><a href="">社区</a></li>
-</ul>
-
-
-<div class="layui-carousel" id="test10">
-	<div carousel-item="">
-		<div><img src="/images/index/1.jpg"></div>
-		<div><img src="/images/index/2.jpg"></div>
-		<div><img src="/images/index/3.jpg"></div>
-		<div><img src="/images/index/4.jpg"></div>
+<div class="blank"></div>
+<div class="block clearfix">
+	<div class="AreaL">
+		<!--销售排行-->
+		<div class="box">
+			<div class="box_2">
+				<div class="top10Tit">
+					<span>销售排行</span>
+				</div>
+				<div class="top10List clearfix">
+					<c:forEach items="${salelist }" var="sg" varStatus="status">
+						<ul class="clearfix">
+							<img class="iteration"
+								 src="../..images/before/top_${status.index+1 }.gif" />
+							<li class="topimg"><a href="/goodsDetail.do?id=${sg.id }">
+								<img class="samllimg" alt="" src="../..logos/${sg.gpicture}" />
+							</a></li>
+							<li class="iteration1"><a href="/goodsDetail.do?id=${sg.id }">${sg.gname }</a><br />
+								售价：<font class="f1">￥${sg.grprice }元</font><br /></li>
+						</ul>
+					</c:forEach>
+				</div>
+			</div>
+		</div>
+		<!--销售排行 end -->
+		<!--人气排行-->
+		<div class="blank5"></div>
+		<div class="box">
+			<div class="box_2">
+				<div class="top10Tit">
+					<span>人气排行</span>
+				</div>
+				<div class="top10List clearfix">
+					<c:forEach items="${focuslist }" var="sg" varStatus="status">
+						<ul class="clearfix">
+							<img class="iteration"
+								 src="../..images/before/top_${status.index+1 }.gif" />
+							<li class="topimg"><a href="/goodsDetail.do?id=${sg.id }">
+								<img class="samllimg" alt="" src="../..logos/${sg.gpicture}" />
+							</a></li>
+							<li class="iteration1"><a href="/goodsDetail.do?id=${sg.id }">${sg.gname }</a><br />
+								售价：<font class="f1">￥${sg.grprice }元</font><br /></li>
+						</ul>
+					</c:forEach>
+				</div>
+			</div>
+		</div>
+		<!--人气排行 end -->
+	</div>
+	<div class="AreaR">
+		<div class="AreaR">
+			<div class="AreaM clearfix">
+				<div id="focus">
+					<img src="../..images/before/540.jpg" />
+				</div>
+			</div>
+			<div class="AreaRR clearfix">
+				<!--公告栏-->
+				<div class="box">
+					<div class="box_1">
+						<div class="title_bt">
+							<h3>公告栏</h3>
+						</div>
+						<div class="post_list ared">
+							<ul>
+								<c:forEach items="${noticelist}" var="nt">
+									<li><a
+											href="javascript:openNotice('/selectANotice.do?id=${nt.id }');">${nt.ntitle }</a></li>
+								</c:forEach>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--公告栏 end-->
+			</div>
+		</div>
+		<div class="AreaR">
+			<!--最新商品列表-->
+			<div class="blank5"></div>
+			<div class="box">
+				<div class="box_color ared">
+					<div class="title_bt">
+						<span><a href="#">更多</a></span>
+						<h3>最新商品</h3>
+					</div>
+					<div class="itemgood_nr clearfix">
+						<ul>
+							<c:forEach items="${lastedlist }" var="sg">
+								<li>
+									<div>
+										<p class="pic">
+											<a href="/goodsDetail.do?id=${sg.id }"> <img
+													src="../../logos/${sg.gpicture}" /></a>
+										</p>
+										<p class="wz">
+											<strong><a href="/goodsDetail.do?id=${sg.id }">${sg.gname }</a></strong>
+											<em>现价:<span>￥${sg.grprice}</span></em>
+										</p>
+									</div>
+								</li>
+							</c:forEach>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--最新商品列表end-->
+		</div>
 	</div>
 </div>
-
-
-<script src="/layui/layui.js" charset="utf-8"></script>
-<!-- 注意：如果你直接复制所有代码到本地，上述js路径需要改成你本地的 -->
-<script>
-    layui.use(['carousel', 'form','element'], function(){
-        var carousel = layui.carousel
-            ,form = layui.form
-			,element = layui.element;
-
-        //常规轮播
-        carousel.render({
-            elem: '#test1'
-            ,arrow: 'always'
-        });
-
-        //改变下时间间隔、动画类型、高度
-        carousel.render({
-            elem: '#test2'
-            ,interval: 1800
-            ,anim: 'fade'
-            ,height: '120px'
-        });
-
-        //设定各种参数
-        var ins3 = carousel.render({
-            elem: '#test3'
-        });
-        //图片轮播
-        carousel.render({
-            elem: '#test10'
-            ,width: '1280px'
-            ,height: '800px'
-            ,interval: 5000
-        });
-
-        //事件
-        carousel.on('change(test4)', function(res){
-            console.log(res)
-        });
-
-        var $ = layui.$, active = {
-            set: function(othis){
-                var THIS = 'layui-bg-normal'
-                    ,key = othis.data('key')
-                    ,options = {};
-
-                othis.css('background-color', '#5FB878').siblings().removeAttr('style');
-                options[key] = othis.data('value');
-                ins3.reload(options);
-            }
-        };
-
-        //监听开关
-        form.on('switch(autoplay)', function(){
-            ins3.reload({
-                autoplay: this.checked
-            });
-        });
-
-        $('.demoSet').on('keyup', function(){
-            var value = this.value
-                ,options = {};
-            if(!/^\d+$/.test(value)) return;
-
-            options[this.name] = value;
-            ins3.reload(options);
-        });
-
-        //其它示例
-        $('.demoTest .layui-btn').on('click', function(){
-            var othis = $(this), type = othis.data('type');
-            active[type] ? active[type].call(this, othis) : '';
-        });
-    });
-</script>
-
 </body>
 </html>

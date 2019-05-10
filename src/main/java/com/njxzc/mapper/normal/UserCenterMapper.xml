@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
 		PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.dao.UserCenterDao">
+<mapper namespace="com.njxzc.dao.UserCenterDao">
 	<select id="myOrder"  resultType="map" parameterType="Integer">
 		SELECT id, amount, busertable_id, status, orderdate  FROM ORDERBASETABLE WHERE busertable_id = #{bid}
 	</select>

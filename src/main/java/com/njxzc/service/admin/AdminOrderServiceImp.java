@@ -21,6 +21,6 @@ public class AdminOrderServiceImp implements AdminOrderService{
     public String deleteorderManager(Integer id){
         adminOrderDao.deleteOrderDetail(id);
         adminOrderDao.deleteOrderBase(id);
-        return "forward:/adminOrder/orderInfo";
+        return "forward:/adminOrder/orderInfo.do";
     }
 }

@@ -10,9 +10,9 @@
 <html>
 <head>
 	<base href="<%=basePath%>">
-	<link href="/css/before/daohang.css" rel="stylesheet" type="text/css" />
-	<link href="/css/before/common.css" rel="stylesheet" type="text/css" />
-	<link href="/css/before/style.css" rel="stylesheet" type="text/css" />
+	<link href="../../css/before/daohang.css" rel="stylesheet" type="text/css" />
+	<link href="../../css/before/common.css" rel="stylesheet" type="text/css" />
+	<link href="../../css/before/style.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript">
         //刷新验证码
         function refreshCode(){
@@ -47,8 +47,7 @@
 	<div class="box4">
 		<div class="case_ll clearfix">
 			<div class="regist">
-				<%--@elvariable id="buser" type="com.njxzc.po.Buser"--%>
-				<form:form action="user/register" method="post"
+				<form:form action="/user/register.do" method="post"
 						   modelAttribute="buser" name="registerForm">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0"
 						   class="ttbb2">
@@ -89,7 +88,7 @@
 						<tr>
 							<td align="right"><span class="cl_f30">*</span> 验证码：</td>
 							<td class="ared"><input type="text" name="code" id="textfield5" class="my_txt_120" />
-								<img id="code" src="validateCode" /> <a href="javascript:refreshCode();"><font
+								<img id="code" src="validateCode.do" /> <a href="javascript:refreshCode();"><font
 									color="blue">看不清，换一个！</font></a></td>
 							<td>${codeError}</td>
 						</tr>

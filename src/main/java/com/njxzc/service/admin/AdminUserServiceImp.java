@@ -28,11 +28,11 @@ public class AdminUserServiceImp implements AdminUserService{
         //用户是否有关联
         if(cartDao.selectCart(id).size() > 0 || userCenterDao.myFocus(id).size() > 0|| userCenterDao.myOrder(id).size() > 0) {
             model.addAttribute("msg", "用户有关联，不能删除");
-            return "forward:/adminUser/userInfo";
+            return "forward:/adminUser/userInfo.do";
         }
         if(adminUserDao.deleteuserManager(id) > 0)
             model.addAttribute("msg", "删除成功！");
-        return "forward:/adminUser/userInfo";
+        return "forward:/adminUser/userInfo.do";
     }
 
 }

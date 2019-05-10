@@ -13,7 +13,8 @@
         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 	<!-- 使用扫描机制，扫描包 -->
 	<context:component-scan base-package="com.njxzc.controller" />
-	<!--<context:component-scan base-package="com.njxzc.service"/>-->
+	<context:component-scan base-package="com.njxzc.service"/>
+	<context:component-scan base-package="com.njxzc.dao"/>
 	<mvc:annotation-driven />
 	<!-- 静态资源需要单独处理，不需要dispatcher servlet -->
 	<mvc:resources location="../webapp/css/" mapping="/css/**"></mvc:resources>
@@ -21,9 +22,7 @@
 	<!-- 查看图片时，logos文件夹不需要dispatcher servlet -->
 	<!--<mvc:resources location="../webapp/logos/" mapping="/logos/**"></mvc:resources>-->
 	<!-- 配置视图解析器 -->
-	<bean
-			class="org.springframework.web.servlet.view.InternalResourceViewResolver"
-			id="internalResourceViewResolver">
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="internalResourceViewResolver">
 		<!-- 前缀 -->
 		<property name="prefix" value="/jsp/" />
 		<!-- 后缀 -->

@@ -13,24 +13,24 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class AdminNoticeController extends BaseController{
 	@Autowired
 	private AdminNoticeService adminNoticeService;
-	@RequestMapping("/toAddNotice")
+	@RequestMapping("/toAddNotice.do")
 	public String toAddNotice(Model model) {
 		model.addAttribute("notice", new Notice());
 		return "admin/addNotice";
 	}
-	@RequestMapping("/addNotice")
+	@RequestMapping("/addNotice.do")
 	public String addNotice(@ModelAttribute Notice notice) {
 		return adminNoticeService.addNotice(notice);
 	}
-	@RequestMapping("/deleteNoticeSelect")
+	@RequestMapping("/deleteNoticeSelect.do")
 	public String deleteNoticeSelect(Model model) {
 		return adminNoticeService.deleteNoticeSelect(model);
 	}
-	@RequestMapping("/selectANotice")
+	@RequestMapping("/selectANotice.do")
 	public String selectANotice(Model model, Integer id) {
 		return adminNoticeService.selectANotice(model, id);
 	}
-	@RequestMapping("/deleteNotice")
+	@RequestMapping("/deleteNotice.do")
 	public String deleteNotice(Integer id) {
 		return adminNoticeService.deleteNotice(id);
 	}

@@ -11,7 +11,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <base href="<%=basePath%>">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link href="/css/admin/common.css" type="text/css" rel="stylesheet">
+<link href="../../css/admin/common.css" type="text/css" rel="stylesheet">
 <style type="text/css">
 table {
 	text-align: center;
@@ -41,7 +41,7 @@ table {
 			</c:forEach>
 		</table>
 	</c:if>
-	<form action="/adminType/addType" method="post">
+	<form action="/adminType/addType.do" method="post">
 		类型名称： <input type="text" name="typename" /> <input type="submit"
 			value="添加" />
 	</form>

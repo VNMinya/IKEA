@@ -5,15 +5,15 @@
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
-<jsp:include page="head.jsp"></jsp:include>
+<jsp:include page="/jsp/before/head.jsp"></jsp:include>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <base href="<%=basePath%>">
 <title>首页</title>
-<link href="/css/before/daohang.css" rel="stylesheet" type="text/css" />
-<link href="/css/before/common.css" rel="stylesheet" type="text/css" />
-<link href="/css/before/style.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/daohang.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/common.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 		function openNotice(url){
 			window.open (url, '站内公告', 'height=400, width=400, top=100, left=100, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=n o, status=no');
@@ -34,11 +34,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						<c:forEach items="${salelist }" var="sg" varStatus="status">
 							<ul class="clearfix">
 								<img class="iteration"
-									src="images/before/top_${status.index+1 }.gif" />
-								<li class="topimg"><a href="goodsDetail?id=${sg.id }">
-										<img class="samllimg" alt="" src="logos/${sg.gpicture}" />
+									src="../..images/before/top_${status.index+1 }.gif" />
+								<li class="topimg"><a href="/goodsDetail.do?id=${sg.id }">
+										<img class="samllimg" alt="" src="../..logos/${sg.gpicture}" />
 								</a></li>
-								<li class="iteration1"><a href="goodsDetail?id=${sg.id }">${sg.gname }</a><br />
+								<li class="iteration1"><a href="/goodsDetail.do?id=${sg.id }">${sg.gname }</a><br />
 									售价：<font class="f1">￥${sg.grprice }元</font><br /></li>
 							</ul>
 						</c:forEach>
@@ -57,11 +57,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						<c:forEach items="${focuslist }" var="sg" varStatus="status">
 							<ul class="clearfix">
 								<img class="iteration"
-									src="images/before/top_${status.index+1 }.gif" />
-								<li class="topimg"><a href="goodsDetail?id=${sg.id }">
-										<img class="samllimg" alt="" src="logos/${sg.gpicture}" />
+									src="../..images/before/top_${status.index+1 }.gif" />
+								<li class="topimg"><a href="/goodsDetail.do?id=${sg.id }">
+										<img class="samllimg" alt="" src="../..logos/${sg.gpicture}" />
 								</a></li>
-								<li class="iteration1"><a href="goodsDetail?id=${sg.id }">${sg.gname }</a><br />
+								<li class="iteration1"><a href="/goodsDetail.do?id=${sg.id }">${sg.gname }</a><br />
 									售价：<font class="f1">￥${sg.grprice }元</font><br /></li>
 							</ul>
 						</c:forEach>
@@ -74,7 +74,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<div class="AreaR">
 				<div class="AreaM clearfix">
 					<div id="focus">
-						<img src="images/before/540.jpg" />
+						<img src="../..images/before/540.jpg" />
 					</div>
 				</div>
 				<div class="AreaRR clearfix">
@@ -88,7 +88,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								<ul>
 									<c:forEach items="${noticelist}" var="nt">
 										<li><a
-											href="javascript:openNotice('/ch20/selectANotice?id=${nt.id }');">${nt.ntitle }</a></li>
+											href="javascript:openNotice('/selectANotice.do?id=${nt.id }');">${nt.ntitle }</a></li>
 									</c:forEach>
 								</ul>
 							</div>
@@ -112,11 +112,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									<li>
 										<div>
 											<p class="pic">
-												<a href="goodsDetail?id=${sg.id }"> <img
-													src="logos/${sg.gpicture}" /></a>
+												<a href="/goodsDetail.do?id=${sg.id }"> <img
+													src="../../logos/${sg.gpicture}" /></a>
 											</p>
 											<p class="wz">
-												<strong><a href="goodsDetail?id=${sg.id }">${sg.gname }</a></strong>
+												<strong><a href="/goodsDetail.do?id=${sg.id }">${sg.gname }</a></strong>
 												<em>现价:<span>￥${sg.grprice}</span></em>
 											</p>
 										</div>

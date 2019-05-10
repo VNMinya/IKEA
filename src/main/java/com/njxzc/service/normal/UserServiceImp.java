@@ -17,12 +17,15 @@ public class UserServiceImp implements UserService {
     private UserDao userDao;
     @Override
     public String register(@ModelAttribute("buser") Buser buser, Model model, HttpSession session, String code) {
-        if(!code.equalsIgnoreCase(session.getAttribute("code").toString())) {
-            model.addAttribute("codeError", "验证码错误！");
-            return "before/register";
-        }
+//        String flag = session.getAttribute("code").toString();
+        //TODO 验证码判断
+    //    if(!code.equalsIgnoreCase(session.getAttribute("code").toString())) {
+    //        model.addAttribute("codeError", "验证码错误！");
+    //        return "before/register";
+    //    }
         int n = userDao.register(buser);
         if(n > 0) {
+            //model.addAttribute("registerOK", "注册成功！");
             return "before/login";
         }else {
             model.addAttribute("msg", "注册失败！");
@@ -42,7 +45,7 @@ public class UserServiceImp implements UserService {
         }
         if(ruser != null) {
             session.setAttribute("bruser", ruser);
-            return "forward:/before";
+            return "forward:/before.do";
         }else {
             model.addAttribute("msg", "用户名或密码错误！");
             return "before/login";

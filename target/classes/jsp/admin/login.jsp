@@ -46,11 +46,10 @@ body {
 </head>
 <body>
   <div align="center">
-	<%--@elvariable id="auser" type="com.njxzc.po.Auser"--%>
-	<form:form action="admin/login" modelAttribute="auser" method="post">
+	<form:form action="admin/login.do" modelAttribute="auser" method="post">
 		<table>
 			<tr>
-				<td colspan="2"><img src="images/admin/login.gif"></td>
+				<td colspan="2"><img src="../../images/admin/login.gif"></td>
 			</tr>
 			<tr>
 				<td>姓名：</td>
@@ -62,9 +61,9 @@ body {
 						maxlength="20" /></td>
 			</tr>
 			<tr>
-				<td colspan="2"><input type="image" src="images/admin/ok.gif"
+				<td colspan="2"><input type="image" src="../../images/admin/ok.gif"
 					onclick="gogo()"> <input type="image"
-					src="images/admin/cancel.gif" onclick="cancel()"></td>
+					src="../../images/admin/cancel.gif" onclick="cancel()"></td>
 			</tr>
 		</table>
 	</form:form>

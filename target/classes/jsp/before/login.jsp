@@ -11,9 +11,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>登录页面</title>
-<link href="/css/before/daohang.css" rel="stylesheet" type="text/css" />
-<link href="/css/before/common.css" rel="stylesheet" type="text/css" />
-<link href="/css/before/style.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/daohang.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/common.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/style.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 table {
 	text-align: center;
@@ -40,11 +40,11 @@ table {
 </head>
 <body>
 	<center>
-		<form:form action="user/login" method="post" modelAttribute="buser"
+		<form:form action="user/login.do" method="post" modelAttribute="buser"
 			name="loginform">
 			<table>
 				<tr>
-					<td colspan="2"><img src="images/admin/login.gif"></td>
+					<td colspan="2"><img src="../../images/admin/login.gif"></td>
 				</tr>
 				<tr>
 					<td>E-Mail：</td>
@@ -60,14 +60,14 @@ table {
 					<td><input type="text" name="code" class="textSize" /></td>
 				</tr>
 				<tr>
-					<td><img id="code" src="validateCode" /></td>
+					<td><img id="code" src="validateCode.do" /></td>
 					<td class="ared"><a href="javascript:refreshCode();"><font
 							color="blue">看不清，换一个！</font></a></td>
 				</tr>
 				<tr>
-					<td colspan="2"><input type="image" src="images/admin/ok.gif"
-						onclick="gogo()"> <input type="image"
-						src="images/admin/cancel.gif" onclick="cancel()"></td>
+					<td colspan="2">
+						<input type="image" src="../../images/admin/ok.gif" onclick="gogo()">
+						<input type="image" src="../../images/admin/cancel.gif" onclick="cancel()"></td>
 				</tr>
 			</table>
 		</form:form>

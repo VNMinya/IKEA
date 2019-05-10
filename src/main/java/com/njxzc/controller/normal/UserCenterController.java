@@ -15,12 +15,12 @@ public class UserCenterController extends BaseNormalController {
     @Autowired
     private UserCenterService userCenterService;
 
-    @RequestMapping("/userCenter")
+    @RequestMapping("/userCenter.do")
     public String userCenter(HttpSession session, Model model) {
         return userCenterService.userCenter(session, model);
     }
 
-    @RequestMapping("/orderDetail")
+    @RequestMapping("/orderDetail.do")
     public String orderDetail(Model model, Integer ordersn) {
         return userCenterService.orderDetail(model, ordersn);
     }

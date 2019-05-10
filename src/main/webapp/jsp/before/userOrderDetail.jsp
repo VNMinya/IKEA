@@ -10,9 +10,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>订单详情</title>
-<link href="/css/before/daohang.css" rel="stylesheet" type="text/css" />
-<link href="/css/before/common.css" rel="stylesheet" type="text/css" />
-<link href="/css/before/style.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/daohang.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/common.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 	<div class="blank"></div>
@@ -39,7 +39,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							<td bgcolor="#ffffff" align="center">${mf.id}</td>
 							<td bgcolor="#ffffff" align="center">${mf.gname}</td>
 							<td align="center" bgcolor="#ffffff" height="60px"><img
-								style="width: 50px; height: 50px;" src="logos/${mf.gpicture}"
+								style="width: 50px; height: 50px;" src="../../logos/${mf.gpicture}"
 								border="0" title="${mf.gname}" /></td>
 							<td align="center" bgcolor="#ffffff">${mf.grprice}</td>
 							<td align="center" bgcolor="#ffffff">${mf.shoppingnum}</td>

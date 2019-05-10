@@ -27,19 +27,18 @@ public class UserController {
 //    public ModelAndView handler() {
 //        return new ModelAndView("buseradd").addObject(new Buser());
 //    }
-    @RequestMapping("/register")
-    public String register(@ModelAttribute Buser buser,Model model, HttpSession session, String code) {
+    @RequestMapping("/register.do")
+    public String register(@ModelAttribute("buser") Buser buser, Model model, HttpSession session, String code) {
         return userService.register(buser, model, session, code);
     }
-    @RequestMapping("/login")
-    public String login(@ModelAttribute Buser buser,Model model, HttpSession session, String code) {
+    @RequestMapping("/login.do")
+    public String login(@ModelAttribute("buser") Buser buser, Model model, HttpSession session, String code) {
         return userService.login(buser, model, session, code);
     }
-    @RequestMapping("/exit")
+    @RequestMapping("/exit.do")
     public String exit(HttpSession session) {
         session.invalidate();
-        return "forward:/before";
+        return "forward:/before.do";
     }
 
 }
-

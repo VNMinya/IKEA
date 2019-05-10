@@ -13,11 +13,12 @@ public class AdminUserController extends BaseController {
     @Autowired
     private AdminUserService adminUserService;
 
-    @RequestMapping("/userInfo")
+    @RequestMapping("/userInfo.do")
     public String userInfo(Model model) {
         return adminUserService.userInfo(model);
     }
-    @RequestMapping("/deleteuserManager")
+
+    @RequestMapping("/deleteuserManager.do")
     public String deleteuserManager(Integer id, Model model) {
         return adminUserService.deleteuserManager(id, model);
     }

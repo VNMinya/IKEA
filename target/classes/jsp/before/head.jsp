@@ -10,9 +10,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>首页</title>
-<link href="/css/before/daohang.css" rel="stylesheet" type="text/css" />
-<link href="/css/before/common.css" rel="stylesheet" type="text/css" />
-<link href="/css/before/style.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/daohang.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/common.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 	function clearValue(){
 		document.myForm.mykey.value = "";
@@ -30,20 +30,20 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							<p id="content">
 								<c:if test="${bruser!=null}">欢迎 ${bruser.bemail }</c:if>
 								<c:if test="${bruser==null}">
-									<a href="toLogin">登录</a>
+									<a href="/toLogin.do">登录</a>
 								</c:if>
 							</p>
 						</td>
 						<td>
 							<p>
-								<a href="toRegister">注册</a>
+								<a href="/toRegister.do">注册</a>
 							</p>
 						</td>
-						<td><span class="xx">|</span><a href="userCenter">用户中心</a><span
+						<td><span class="xx">|</span><a href="/userCenter.do">用户中心</a><span
 							class="xx">|</span></td>
 						<!-- 没有登录 -->
 						<c:if test="${bruser!= null}">
-							<td><a href="user/exit">退出</a><span class="xx">|</span></td>
+							<td><a href="/user/exit.do">退出</a><span class="xx">|</span></td>
 						</c:if>
 					</tr>
 				</table>
@@ -53,11 +53,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<!--logo 搜索-->
 		<div class="all_zong_logo">
 			<div class="all_zong_logo2">
-				<img src="/images/before/mylogo.png" />
+				<img src="../../images/before/mylogo.png" />
 			</div>
 			<div class="back_search">
 				<div class="back_search_red">
-					<form action="search" name="myForm" method="post">
+					<form action="/search.do" name="myForm" method="post">
 						<div class="div2">
 							<input type="text" name="mykey" class="txt" value="请输入您要查询的内容"
 								onfocus="clearValue()" />
@@ -76,14 +76,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<div class="all_zong">
 					<div class="front_daohang">
 						<ul>
-							<li class="backbj"><a href="before?id=0">首页</a></li>
+							<li class="backbj"><a href="/before.do?id=0">首页</a></li>
 							<!-- 显示商品类型 -->
 							<c:forEach items="${goodsType}" var="g">
-								<li><a href="before?id=${g.id }"> ${g.typename }</a></li>
+								<li><a href="/before.do?id=${g.id }"> ${g.typename }</a></li>
 							</c:forEach>
 							<li class="buy">
 								<p class="car">
-									<a href="cart/selectCart">购物车</a>
+									<a href="/cart/selectCart.do">购物车</a>
 								</p>
 							</li>
 						</ul>

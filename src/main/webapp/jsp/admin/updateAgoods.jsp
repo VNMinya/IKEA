@@ -11,11 +11,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>updateAgoods.jsp</title>
-<link href="/css/admin/common.css" type="text/css" rel="stylesheet">
+<link href="../../css/admin/common.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-	<form:form action="adminGoods/addGoods?updateAct=update" method="post"
-		modelAttribute="goods" enctype="multipart/form-data">
+	<form:form action="/adminGoods/addGoods.do?updateAct=update" method="post" modelAttribute="goods" enctype="multipart/form-data">
 		<table border=1 style="border-collapse: collapse">
 			<caption>
 				<font size=4 face=宋体>修改商品</font>

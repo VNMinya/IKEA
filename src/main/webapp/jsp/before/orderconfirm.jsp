@@ -11,13 +11,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>订单确认</title>
-<link href="/css/before/daohang.css" rel="stylesheet" type="text/css" />
-<link href="/css/before/common.css" rel="stylesheet" type="text/css" />
-<link href="/css/before/style.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/daohang.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/common.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 	function submitorder(total){
 		if(window.confirm("是否真的提交订单，提交后不可再修改订单信息！")){
-			window.location.href="/ch20/order/orderSubmit?amount=" + total;
+			window.location.href="/order/orderSubmit.do?amount=" + total;
 			return true;
 		}
 		return false;
@@ -60,7 +60,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				</table>
 				<div align="center" style="margin: 8px auto;">
 					<img style="cursor: pointer;" onclick="submitorder(${total})"
-						src="images/before/bnt_subOrder.gif" />
+						src="../../images/before/bnt_subOrder.gif" />
 				</div>
 				<input type="hidden" name="goodsamount" value="20" />
 			</form>

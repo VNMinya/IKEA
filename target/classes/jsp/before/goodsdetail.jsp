@@ -11,20 +11,20 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>商品详情</title>
-<link href="/css/before/daohang.css" rel="stylesheet" type="text/css" />
-<link href="/css/before/common.css" rel="stylesheet" type="text/css" />
-<link href="/css/before/style.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/daohang.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/common.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 	function goCart() {
 		document.putcartform.submit();
 	}
 	function gofocus(gno) {
-		window.location.href = "/ch20/cart/focus?id=" + gno;
+		window.location.href = "/cart/focus.do?id=" + gno;
 	}
 </script>
 </head>
 <body>
-	<form action="cart/putCart" name="putcartform" method="post">
+	<form action="/cart/putCart.do" name="putcartform" method="post">
 		<div class="blank"></div>
 		<div class="block clearfix">
 			<div class="location ared">
@@ -51,7 +51,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</ul>
 				</div>
 				<p class="bottom10 top5">
-					<img src="images/before/goods_ann2.gif" style="cursor: pointer"
+					<img src="../../images/before/goods_ann2.gif" style="cursor: pointer"
 						onclick="goCart()" />&nbsp;&nbsp;<input type="button"
 						style="cursor: pointer" class="sh_bnt2"
 						onclick="gofocus('${goods.id }')" value="关注" />

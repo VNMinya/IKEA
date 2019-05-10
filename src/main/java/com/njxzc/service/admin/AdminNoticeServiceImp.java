@@ -15,7 +15,7 @@ public class AdminNoticeServiceImp implements AdminNoticeService{
 	@Override
 	public String addNotice(Notice notice) {
 		adminNoticeDao.addNotice(notice);
-		return "forward:/adminNotice/deleteNoticeSelect";
+		return "forward:/adminNotice/deleteNoticeSelect.do";
 	}
 	@Override
 	public String deleteNoticeSelect(Model model) {
@@ -30,7 +30,7 @@ public class AdminNoticeServiceImp implements AdminNoticeService{
 	@Override
 	public String deleteNotice(Integer id) {
 		adminNoticeDao.deleteNotice(id);
-		return "forward:/adminNotice/deleteNoticeSelect";
+		return "forward:/adminNotice/deleteNoticeSelect.do";
 	}
 
 }

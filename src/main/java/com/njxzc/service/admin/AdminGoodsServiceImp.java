@@ -56,17 +56,17 @@ public class AdminGoodsServiceImp implements AdminGoodsService{
         if("update".equals(updateAct)){
             //修改到数据库
             if(adminGoodsDao.updateGoodsById(goods) > 0){
-                return "forward:/adminGoods/selectGoods?act=updateSelect";
+                return "forward:/adminGoods/selectGoods.do?act=updateSelect";
             }
             else{
-                return "/adminGoods/updateAgoods";
+                return "/adminGoods/updateAgoods.do";
             }
         }
         else{
             //保存到数据库
             if(adminGoodsDao.addGoods(goods) > 0){
                 //转发到查询的controller
-                return "forward:/adminGoods/selectGoods";
+                return "forward:/adminGoods/selectGoods.do";
             }
             else {
                 return "card/addCard";
@@ -147,13 +147,13 @@ public class AdminGoodsServiceImp implements AdminGoodsService{
                     adminGoodsDao.selectFocusGoods(ids[i]).size() > 0 ||
                     adminGoodsDao.selectOrderdetailGoods(ids[i]).size() > 0) {
                 model.addAttribute("msg", "商品有关联，不允许删除！");
-                return "forward:/adminGoods/selectGoods?act=deleteSelect";
+                return "forward:/adminGoods/selectGoods.do?act=deleteSelect";
             }
             list.add(ids[i]);
         }
         adminGoodsDao.deleteGoods(list);
         model.addAttribute("msg", "成功删除商品！");
-        return "forward:/adminGoods/selectGoods?act=deleteSelect";
+        return "forward:/adminGoods/selectGoods.do?act=deleteSelect";
     }
 
     /**
@@ -165,10 +165,10 @@ public class AdminGoodsServiceImp implements AdminGoodsService{
                 adminGoodsDao.selectFocusGoods(id).size() > 0 ||
                 adminGoodsDao.selectOrderdetailGoods(id).size() > 0) {
             model.addAttribute("msg", "商品有关联，不允许删除！");
-            return "forward:/adminGoods/selectGoods?act=deleteSelect";
+            return "forward:/adminGoods/selectGoods.do?act=deleteSelect";
         }
         adminGoodsDao.deleteAGoods(id);
         model.addAttribute("msg", "成功删除商品！");
-        return "forward:/adminGoods/selectGoods?act=deleteSelect";
+        return "forward:/adminGoods/selectGoods.do?act=deleteSelect";
     }
 }

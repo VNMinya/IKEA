@@ -2,8 +2,22 @@
 <!DOCTYPE mapper
 		PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.dao.UserDao">
-	<select id="login"  resultType="Buser" parameterType="Buser">
+<mapper namespace="com.njxzc.dao.UserDao">
+
+	<!-- resultMap最终还是要将结果映射到pojo上，type就是指定映射到哪一个pojo -->
+	<!-- id：设置ResultMap的id -->
+	<resultMap type="com.njxzc.po.Buser" id="Buser">
+	<!-- 定义主键 ,非常重要。如果是多个字段,则定义多个id -->
+	<!-- property：主键在pojo中的属性名 -->
+	<!-- column：主键在数据库中的列名 -->
+	<id property="id" column="id" />
+
+	<!-- 定义普通属性 -->
+	<result property="bemail" column="bemail" />
+	<result property="bpwd" column="bpwd" />
+	</resultMap>
+
+	<select id="login"  resultMap="Buser" parameterType="Buser">
 		SELECT * FROM busertable WHERE bemail =  #{bemail} AND bpwd = #{bpwd}
 	</select>
 

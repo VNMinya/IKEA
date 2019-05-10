@@ -11,15 +11,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>搜索结果</title>
-<link href="/css/before/daohang.css" rel="stylesheet" type="text/css" />
-<link href="/css/before/common.css" rel="stylesheet" type="text/css" />
-<link href="/css/before/style.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/daohang.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/common.css" rel="stylesheet" type="text/css" />
+<link href="../../css/before/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 	<div class="blank"></div>
 	<div class="block clearfix">
 		<div class="location ared">
-			当前位置： <a href="before?id=0">首页</a> > 搜索结果
+			当前位置： <a href="/before.do?id=0">首页</a> > 搜索结果
 		</div>
 		<div class="blank"></div>
 		<div>
@@ -42,12 +42,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							<td bgcolor="#ffffff" align="center">${mf.id }</td>
 							<td bgcolor="#ffffff" align="center">${mf.gname }</td>
 							<td align="center" bgcolor="#ffffff" height="60px"><img
-								style="width: 50px; height: 50px;" src="logos/${mf.gpicture }"
+								style="width: 50px; height: 50px;" src="../../logos/${mf.gpicture }"
 								border="0" title="${mf.gname }" /></td>
 							<td align="center" bgcolor="#ffffff">${mf.grprice }</td>
 							<td align="center" bgcolor="#ffffff"><a
 								style="text-decoration: none;" class="f6"
-								href="goodsDetail?id=${mf.id}">去看看</a></td>
+								href="/goodsDetail.do?id=${mf.id}">去看看</a></td>
 						</tr>
 					</c:forEach>
 				</table>

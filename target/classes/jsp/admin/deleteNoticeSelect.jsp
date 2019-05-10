@@ -10,7 +10,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <title>selectGoods.jsp</title>
-<link href="/css/admin/common.css" type="text/css" rel="stylesheet">
+<link href="../../css/admin/common.css" type="text/css" rel="stylesheet">
 <style type="text/css">
 table {
 	text-align: center;
@@ -32,7 +32,7 @@ table {
 <script type="text/javascript">
   		function checkDel(id){
   			if(window.confirm("是否删除该公告？")){
-  				window.location.href = "/ch20/adminNotice/deleteNotice?id="+id;
+  				window.location.href = "/adminNotice/deleteNotice.do?id="+id;
   			}
   		}
   </script>
@@ -55,7 +55,7 @@ table {
 					<td>${notice.id }</td>
 					<td>${notice.ntitle }</td>
 					<td>${notice.ntime }</td>
-					<td><a href="adminNotice/selectANotice?id=${notice.id }"
+					<td><a href="/adminNotice/selectANotice.do?id=${notice.id }"
 						target="_blank">详情</a></td>
 					<td><a href="javascript:checkDel('${notice.id }')">删除</a></td>
 				</tr>
